@@ -81,6 +81,59 @@ ok(C.classify(None) == [], "None text is noise")
 multi = params("Board approved capacity expansion and a preferential allotment to fund it")
 ok("A1" in multi and "D3" in multi, "one filing can fire two families")
 
+# ------------------------------------------- regressions from the live 16 Aug
+# 2026 run. These are VERBATIM strings the collector pulled off NSE. Four of
+# the five candidates that run produced were the same defect: a capital-raising
+# filing counted once as funding (A6) and again as ownership (D3), so a single
+# fact looked like two families converging.
+
+LIVE_RATNAVEER = ("Monitoring Agency Report Monitoring Agency Report for the quarter "
+                  "ended 30th June, 2026 in respect of utilization of proceeds")
+ok(C.classify(LIVE_RATNAVEER) == [],
+   "routine monitoring agency report is noise, not a signal")
+
+LIVE_GRETEX = ("Allotment of Securities Gretex Corporate Services Limited has informed "
+               "the Exchange regarding allotment of 1201000 securities")
+g = params(LIVE_GRETEX)
+ok("A6" not in g, "a bare allotment is NOT a capex signal")
+
+LIVE_SHALIMAR = ("Qualified Institutional Placement Shalimar Paints Limited has informed "
+                 "the Exchange about qualified Institutional Placement")
+s_ = params(LIVE_SHALIMAR)
+ok("A6" not in s_, "a bare QIP does not fire the capex family")
+ok("D3" in s_, "a bare QIP is still an ownership fact")
+
+WITH_CONTEXT = "Board approves QIP of Rs 300 crore to fund the capacity expansion programme"
+wc = params(WITH_CONTEXT)
+ok("A6" in wc and "D3" in wc,
+   "a fundraise tied to expansion legitimately fires both families")
+
+LIVE_JUNIPER_ORDER = ("Bagging/Receiving of orders/contracts Juniper Green Energy Limited "
+                      "has informed the Exchange about Receipt of Letter of Award")
+LIVE_JUNIPER_COD = ("Commencement of commercial production/operations Juniper Green Energy "
+                    "Limited has informed the Exchange about Commencement")
+ok("B4" in params(LIVE_JUNIPER_ORDER), "a letter of award is a tender-award signal")
+ok("A5" in params(LIVE_JUNIPER_COD), "commencement of commercial production is Clock 3")
+
+# the whole point: the good candidate survives, the double-counted ones do not
+noisy = C.dedupe(C.to_events([
+    {"company": "XYZ Engineering Ltd", "text": LIVE_GRETEX, "date": "2026-08-14",
+     "link": "u", "source": "NSE announcement", "sweep": 1, "grade": "A"},
+    {"company": "XYZ Engineering Ltd", "text": LIVE_SHALIMAR, "date": "2026-08-10",
+     "link": "v", "source": "NSE announcement", "sweep": 1, "grade": "A"}],
+    {"XYZENG": {"name": "XYZ Engineering Ltd"}}))
+ok(C.find_convergence(noisy, date(2026, 8, 16)) == [],
+   "two financing filings alone no longer fake a convergence")
+
+clean = C.dedupe(C.to_events([
+    {"company": "XYZ Engineering Ltd", "text": LIVE_JUNIPER_ORDER, "date": "2026-08-15",
+     "link": "u", "source": "NSE announcement", "sweep": 1, "grade": "A"},
+    {"company": "XYZ Engineering Ltd", "text": LIVE_JUNIPER_COD, "date": "2026-08-12",
+     "link": "v", "source": "NSE announcement", "sweep": 1, "grade": "A"}],
+    {"XYZENG": {"name": "XYZ Engineering Ltd"}}))
+ok(len(C.find_convergence(clean, date(2026, 8, 16))) == 1,
+   "an order win plus a plant going live still converges correctly")
+
 # -------------------------------------------------------------- name matching
 uni = {"ABCIND": {"name": "ABC Industries Limited"},
        "XYZENG": {"name": "XYZ Engineering Ltd"}}

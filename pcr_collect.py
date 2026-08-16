@@ -66,6 +66,9 @@ SIGNAL_RULES = [
      R(r"\b(acquisition of land|land (parcel|purchase|allot\w+)|"
        r"(MoU|memorandum of understanding) with (the )?(govt|government|state)|"
        r"industrial development corporation)\b", re.I)),
+    # A6 only counts when the money is tied to building something. A bare
+    # QIP or warrant allotment is a financing fact, not a capex signal — it
+    # belongs to family D and nowhere else. See EXPANSION_CONTEXT below.
     ("A", "A6", "Fundraise earmarked for expansion", 1,
      R(r"\b(qip|qualified institution\w* placement|preferential (issue|allotment)|"
        r"rights issue|fund ?rais\w+|term loan sanction\w*)\b", re.I)),
@@ -107,7 +110,8 @@ SIGNAL_RULES = [
     ("D", "D2", "Promoter pledge release", 2,
      R(r"\b(revocation of pledge|release of pledge|pledge released|unpledg\w+)\b", re.I)),
     ("D", "D3", "Preferential allotment / QIP to a named investor", 2,
-     R(r"\b(preferential (allotment|issue)|allotment of (equity )?shares to|"
+     R(r"\b(preferential (allotment|issue|basis)|allotment of (equity )?shares to|"
+       r"qualified institution\w* placement|qip|"
        r"strategic investor|anchor investor)\b", re.I)),
     ("D", "D4", "Substantial acquisition / institutional entry", 2,
      R(r"\b(SAST|regulation 29|substantial acquisition|acquisition of shares|"
@@ -139,6 +143,16 @@ SIGNAL_RULES = [
        r"allocation of (rs|₹))\b", re.I)),
 ]
 
+# A fundraise only counts as a capex signal (A6) when the filing ties the money
+# to building something. Without these words it is a financing fact, which
+# belongs to family D alone. Learned from the 16 Aug 2026 run, where bare QIP
+# and warrant-allotment filings were firing A6 and D3 together and faking
+# convergence on their own.
+EXPANSION_CONTEXT = R(
+    r"\b(expansion|expand\w*|capacity|capex|capital expenditure|greenfield|brownfield|"
+    r"new (plant|unit|facility|line|project)|setting up|debottleneck\w*|"
+    r"augment\w+|modernis\w+|moderniz\w+)\b", re.I)
+
 # Items that superficially match but carry no information. Checked FIRST.
 NOISE = R(
     r"\b(trading window|closure of trading window|newspaper (publication|advertisement)|"
@@ -148,7 +162,11 @@ NOISE = R(
     r"postal ballot|annual general meeting|record date|book closure|"
     r"outcome of board meeting$|submission of|intimation (of|under) regulation|"
     r"disclosure under regulation 30 of|scrutinizer|voting results|"
-    r"certificate under|reconciliation of share capital)\b", re.I)
+    r"certificate under|reconciliation of share capital|"
+    # added after the 16 Aug 2026 run — routine post-IPO and ESOP paperwork
+    r"monitoring agency report|utili[sz]ation of (the )?(issue )?proceeds|"
+    r"statement of deviation|allotment of (equity shares )?under (the )?(esop|esos|employee)|"
+    r"conversion of warrants into equity$|loss of certificate)\b", re.I)
 
 
 def classify(text):
@@ -163,6 +181,10 @@ def classify(text):
         if rx.search(t) and param not in seen:
             seen.add(param)
             hits.append((fam, param, label, clock))
+    # A6 without expansion language is double-counting a financing fact that
+    # D3 already records. Drop it rather than let one filing fire two families.
+    if "A6" in seen and not EXPANSION_CONTEXT.search(t):
+        hits = [h for h in hits if h[1] != "A6"]
     return hits
 
 
