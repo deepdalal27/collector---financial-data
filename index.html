@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pre-Consensus Radar — this week's signals</title>
+<style>
+:root{--paper:#f7f6f3;--card:#fff;--ink:#16181d;--muted:#5f6672;--line:#e3e1dc;
+--accent:#0f5c58;--soft:#e6f0ef;--warn:#8a5a00;--warnsoft:#fdf3e0;--good:#1d6b3a;--goodsoft:#e9f4ec}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:15px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 70px}
+header{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:18px}
+.tag{display:inline-block;background:var(--soft);color:var(--accent);border-radius:3px;
+padding:2px 8px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+h1{font-size:24px;margin:6px 0 4px;letter-spacing:-.4px}
+.sub{color:var(--muted);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:16px 0 20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat b{display:block;font-size:23px;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.co{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-bottom:14px}
+.co h2{font-size:18px;margin:0 0 2px}
+.co .sym{color:var(--muted);font-size:12.5px;font-weight:600;letter-spacing:.4px}
+.chips{margin:10px 0 12px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:11px;font-weight:700;padding:3px 9px;border-radius:11px;background:var(--soft);color:var(--accent)}
+.chip.k1,.chip.k2{background:var(--goodsoft);color:var(--good)}
+.chip.k4{background:var(--warnsoft);color:var(--warn)}
+.ev{border-top:1px solid var(--line);padding:10px 0 0;margin-top:10px}
+.ev:first-of-type{border-top:none;margin-top:0}
+.ev .d{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ev .l{font-weight:650;font-size:14px;margin:1px 0 3px}
+.ev .t{font-size:13px;color:var(--muted);line-height:1.5}
+.ev a{color:var(--accent);font-size:12px;text-decoration:none;border-bottom:1px solid #bcd3d1}
+.note{background:var(--warnsoft);border-left:3px solid var(--warn);padding:11px 14px;
+border-radius:0 6px 6px 0;font-size:13.5px;margin:14px 0}
+.empty{text-align:center;padding:40px 18px;color:var(--muted);border:1px dashed var(--line);
+border-radius:8px;background:#fbfaf8}
+footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:11.5px}
+.fam{font-size:12px;color:var(--muted);margin-top:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">Pre-Consensus Radar</span>
+  <h1>This week's signals</h1>
+  <div class="sub" id="when">Loading…</div>
+</header>
+
+<div class="stats" id="stats"></div>
+<div id="warn"></div>
+<div id="list"><div class="empty">Loading the latest scan…</div></div>
+
+<footer>
+  Companies here fired at least two independent signal families within 90 days, one of them a
+  physical footprint. That makes them candidates for research — nothing more. No scoring,
+  no disqualifier checks and no judgment have been applied on this page; that happens in the
+  Sunday review. Not investment advice. No buy, sell or hold recommendation is expressed or implied.
+</footer>
+</div>
+
+<script>
+const FAMILY = {A:"Capex",B:"Orders",C:"Regulatory",D:"Ownership",
+                E:"Microstructure",F:"People",G:"Structure",H:"Policy"};
+const CLOCK = {1:"Clock 1 · Intent",2:"Clock 2 · Commitment",
+               3:"Clock 3 · Conversion",4:"Clock 4 · Recognition"};
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,c=>(
+  {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function fmt(d){
+  try{return new Date(d).toLocaleDateString("en-IN",{day:"numeric",month:"short",year:"numeric"});}
+  catch(e){return d;}
+}
+
+fetch("data/signals.json?t=" + Date.now())
+ .then(r => { if(!r.ok) throw new Error("no data file yet"); return r.json(); })
+ .then(render)
+ .catch(e => {
+   document.getElementById("when").textContent = "Could not load the scan data.";
+   document.getElementById("list").innerHTML =
+     '<div class="empty"><strong>No scan data found.</strong><br><br>' +
+     'Run the scan once from the Actions tab, then refresh this page.</div>';
+ });
+
+function render(d){
+  const w = d.window || {};
+  document.getElementById("when").textContent =
+    "Filings from " + fmt(w.from) + " to " + fmt(w.to) +
+    " · last scan " + fmt(d.generated_at);
+
+  const c = d.counts || {};
+  document.getElementById("stats").innerHTML = [
+    [c.raw, "filings read"],
+    [c.events, "signals kept"],
+    [c.candidates, "companies flagged"],
+    [c.universe, "companies watched"],
+  ].map(([n,l]) =>
+    `<div class="stat"><b>${(n||0).toLocaleString("en-IN")}</b><span>${l}</span></div>`
+  ).join("");
+
+  if(d.coverage_warning){
+    document.getElementById("warn").innerHTML =
+      `<div class="note"><strong>Coverage warning.</strong> ${esc(d.coverage_warning)}</div>`;
+  }
+
+  const cands = d.candidates || [];
+  if(!cands.length){
+    document.getElementById("list").innerHTML =
+      '<div class="empty"><strong>Nothing converged this week.</strong><br><br>' +
+      'Signals fired, but no company had two independent families fire together. ' +
+      'A quiet week is a real result, not a failure.</div>';
+    return;
+  }
+
+  document.getElementById("list").innerHTML = cands.map(co => {
+    const fams = (co.families_fired||[]).map(f =>
+      `<span class="chip">${f} · ${FAMILY[f]||f}</span>`).join("");
+    const clock = co.earliest_clock;
+    const evs = (co.events||[]).map(e => `
+      <div class="ev">
+        <div class="d">${fmt(e.date)} · ${esc(e.source||"")}</div>
+        <div class="l">${esc(e.label||"")}</div>
+        <div class="t">${esc((e.text||"").slice(0,260))}${(e.text||"").length>260?"…":""}</div>
+        ${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">Open the filing →</a>` : ""}
+      </div>`).join("");
+    return `<div class="co">
+      <h2>${esc(co.company||co.key)}</h2>
+      <div class="sym">${esc(co.symbol||"symbol not matched")}</div>
+      <div class="chips">
+        <span class="chip k${clock}">${CLOCK[clock]||"Clock ?"}</span>
+        ${fams}
+        <span class="chip">Evidence ${esc(co.best_grade||"?")}</span>
+      </div>
+      <div class="fam">${co.event_count||0} signal${co.event_count===1?"":"s"} in the last 90 days</div>
+      ${evs}
+    </div>`;
+  }).join("");
+}
+</script>
+</body>
+</html>
