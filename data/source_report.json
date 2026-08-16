@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-16T17:45:36.288601+05:30",
+  "run_at": "2026-08-16T17:59:24.757643+05:30",
   "results": {
     "bse_ann": {
       "label": "BSE corporate announcements",
@@ -7,15 +7,15 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 0.4
+      "seconds": 0.7
     },
     "nse_ann": {
       "label": "NSE corporate announcements",
       "sweep": 1,
       "needs_indian_ip": true,
       "reachable": true,
-      "size": 7342,
-      "seconds": 4.7
+      "size": 7344,
+      "seconds": 4.1
     },
     "nse_pit": {
       "label": "NSE insider trading (PIT) disclosures",
@@ -23,7 +23,7 @@
       "needs_indian_ip": true,
       "reachable": true,
       "size": 2,
-      "seconds": 2.3
+      "seconds": 2.0
     },
     "nse_sast": {
       "label": "NSE SAST substantial acquisition disclosures",
@@ -31,7 +31,7 @@
       "needs_indian_ip": true,
       "reachable": true,
       "size": 2,
-      "seconds": 2.1
+      "seconds": 2.0
     },
     "nse_bulk": {
       "label": "NSE bulk deals",
@@ -39,7 +39,7 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 2.0
+      "seconds": 1.9
     },
     "nse_universe": {
       "label": "NSE equity list (archives)",
@@ -47,7 +47,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 169825,
-      "seconds": 0.3
+      "seconds": 0.1
     },
     "bse_universe": {
       "label": "BSE active equity scrip list",
@@ -55,7 +55,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 4975,
-      "seconds": 0.3
+      "seconds": 3.2
     },
     "openfda": {
       "label": "openFDA drug approvals",
@@ -63,7 +63,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 2,
-      "seconds": 0.7
+      "seconds": 1.3
     },
     "pib": {
       "label": "PIB press releases (RSS)",
@@ -71,7 +71,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 20,
-      "seconds": 0.9
+      "seconds": 1.7
     },
     "dgtr": {
       "label": "DGTR anti-dumping notifications",
@@ -79,7 +79,7 @@
       "needs_indian_ip": false,
       "reachable": false,
       "size": 0,
-      "seconds": 94.2
+      "seconds": 93.0
     },
     "gnews": {
       "label": "Google News India (RSS)",
@@ -87,7 +87,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 100,
-      "seconds": 0.6
+      "seconds": 0.5
     }
   },
   "indian_ip_sources_failing": 2,
