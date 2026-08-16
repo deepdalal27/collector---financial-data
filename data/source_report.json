@@ -1,0 +1,122 @@
+{
+  "run_at": "2026-08-16T17:45:36.288601+05:30",
+  "results": {
+    "bse_ann": {
+      "label": "BSE corporate announcements",
+      "sweep": 1,
+      "needs_indian_ip": true,
+      "reachable": false,
+      "size": 0,
+      "seconds": 0.4
+    },
+    "nse_ann": {
+      "label": "NSE corporate announcements",
+      "sweep": 1,
+      "needs_indian_ip": true,
+      "reachable": true,
+      "size": 7342,
+      "seconds": 4.7
+    },
+    "nse_pit": {
+      "label": "NSE insider trading (PIT) disclosures",
+      "sweep": 7,
+      "needs_indian_ip": true,
+      "reachable": true,
+      "size": 2,
+      "seconds": 2.3
+    },
+    "nse_sast": {
+      "label": "NSE SAST substantial acquisition disclosures",
+      "sweep": 7,
+      "needs_indian_ip": true,
+      "reachable": true,
+      "size": 2,
+      "seconds": 2.1
+    },
+    "nse_bulk": {
+      "label": "NSE bulk deals",
+      "sweep": 7,
+      "needs_indian_ip": true,
+      "reachable": false,
+      "size": 0,
+      "seconds": 2.0
+    },
+    "nse_universe": {
+      "label": "NSE equity list (archives)",
+      "sweep": 0,
+      "needs_indian_ip": false,
+      "reachable": true,
+      "size": 169825,
+      "seconds": 0.3
+    },
+    "bse_universe": {
+      "label": "BSE active equity scrip list",
+      "sweep": 0,
+      "needs_indian_ip": false,
+      "reachable": true,
+      "size": 4975,
+      "seconds": 0.3
+    },
+    "openfda": {
+      "label": "openFDA drug approvals",
+      "sweep": 5,
+      "needs_indian_ip": false,
+      "reachable": true,
+      "size": 2,
+      "seconds": 0.7
+    },
+    "pib": {
+      "label": "PIB press releases (RSS)",
+      "sweep": 6,
+      "needs_indian_ip": false,
+      "reachable": true,
+      "size": 20,
+      "seconds": 0.9
+    },
+    "dgtr": {
+      "label": "DGTR anti-dumping notifications",
+      "sweep": 6,
+      "needs_indian_ip": false,
+      "reachable": false,
+      "size": 0,
+      "seconds": 94.2
+    },
+    "gnews": {
+      "label": "Google News India (RSS)",
+      "sweep": 9,
+      "needs_indian_ip": false,
+      "reachable": true,
+      "size": 100,
+      "seconds": 0.6
+    }
+  },
+  "indian_ip_sources_failing": 2,
+  "verdict": "Exchange sweeps reachable. This machine can run the full pipeline.",
+  "relays": {
+    "worker": {
+      "fails": 1,
+      "wins": 0,
+      "off": false
+    },
+    "allorigins": {
+      "fails": 1,
+      "wins": 0,
+      "off": false
+    },
+    "codetabs": {
+      "fails": 1,
+      "wins": 0,
+      "off": false
+    }
+  },
+  "errors": [
+    {
+      "where": "https://www.nseindia.com/api/historical/bulk-deals?from=09-08-2026&to=16-08-2026",
+      "detail": "bad json: JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 13 (char 14)')"
+    },
+    {
+      "where": "https://www.dgtr.gov.in/",
+      "detail": "codetabs HTTP 522"
+    }
+  ]
+}
