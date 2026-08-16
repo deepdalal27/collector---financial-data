@@ -1,1 +1,29 @@
+name: PCR weekly scan
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 16 * * 6"
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - run: python test_pcr.py
+      - run: python pcr_collect.py --doctor
+      - run: cat data/source_report.json
+      - name: Save results
+        run: |
+          git config user.name pcr-bot
+          git config user.email pcr-bot@users.noreply.github.com
+          git add -A data || true
+          git diff --staged --quiet || git commit -m "PCR doctor run"
+          git push || true
