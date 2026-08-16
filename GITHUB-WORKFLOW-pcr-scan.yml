@@ -1,0 +1,99 @@
+name: PCR weekly scan
+
+# Saturday 22:00 IST (16:30 UTC) — ten hours before the Sunday 08:00 IST Claude
+# run, so signals.json is already committed and waiting when Claude wakes up.
+on:
+  schedule:
+    - cron: "30 16 * * 6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "doctor = probe sources only · scan = full harvest"
+        required: true
+        default: scan
+        type: choice
+        options: [scan, doctor]
+      days:
+        description: "How many days back to harvest"
+        required: false
+        default: "7"
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    # ------------------------------------------------------------------
+    # GitHub's runners live in datacentres. NSE, BSE and the government
+    # portals refuse datacentre IPs — your own SME Screener doctor run
+    # measured exactly that on 2 Aug 2026.
+    #
+    # Run `doctor` first and read data/source_report.json. If the exchange
+    # sources come back FAIL, comment out the line below and uncomment the
+    # self-hosted line. Nothing else changes: same workflow, same schedule,
+    # same code — it just executes on your PC, from an Indian IP.
+    # ------------------------------------------------------------------
+    runs-on: ubuntu-latest
+    # runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --quiet requests
+
+      - name: Run tests
+        working-directory: collector
+        run: python test_pcr.py
+
+      - name: Probe sources (doctor)
+        working-directory: collector
+        run: python pcr_collect.py --doctor
+
+      - name: Harvest
+        if: ${{ github.event.inputs.mode != 'doctor' }}
+        working-directory: collector
+        run: python pcr_collect.py --days ${{ github.event.inputs.days || 7 }}
+
+      - name: Summarise into the run log
+        working-directory: collector
+        run: |
+          python - <<'PY'
+          import json, os
+          def load(p):
+              try:
+                  return json.load(open(p))
+              except Exception:
+                  return {}
+          rep = load("data/source_report.json")
+          sig = load("data/signals.json")
+          s = os.environ["GITHUB_STEP_SUMMARY"]
+          with open(s, "a") as f:
+              f.write("## PCR scan\n\n")
+              c = sig.get("counts", {})
+              f.write(f"- raw items: **{c.get('raw', 0)}**\n")
+              f.write(f"- signal events: **{c.get('events', 0)}** ({c.get('new', 0)} new)\n")
+              f.write(f"- candidates through the convergence rule: **{c.get('candidates', 0)}**\n\n")
+              if sig.get("coverage_warning"):
+                  f.write(f"> **Coverage warning.** {sig['coverage_warning']}\n\n")
+              f.write("### Source reachability from this runner\n\n")
+              f.write("| Source | Sweep | Needs Indian IP | Reachable |\n|---|---|---|---|\n")
+              for k, v in rep.get("results", {}).items():
+                  f.write(f"| {v['label']} | {v['sweep']} | "
+                          f"{'yes' if v['needs_indian_ip'] else 'no'} | "
+                          f"{'OK' if v['reachable'] else '**FAIL**'} |\n")
+              if rep.get("verdict"):
+                  f.write(f"\n**{rep['verdict']}**\n")
+          PY
+
+      - name: Commit the dataset
+        run: |
+          git config user.name  "pcr-bot"
+          git config user.email "pcr-bot@users.noreply.github.com"
+          git add collector/data/
+          git diff --staged --quiet || git commit -m "PCR scan $(date -u +%Y-%m-%d)"
+          git push
