@@ -19,11 +19,11 @@ jobs:
       - run: pip install requests
       - run: python test_pcr.py
       - run: python pcr_collect.py --doctor
-      - run: cat data/source_report.json
+      - run: python pcr_collect.py --days 7
       - name: Save results
         run: |
           git config user.name pcr-bot
           git config user.email pcr-bot@users.noreply.github.com
           git add -A data || true
-          git diff --staged --quiet || git commit -m "PCR doctor run"
+          git diff --staged --quiet || git commit -m "PCR scan"
           git push || true
