@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-30T00:58:35.752507+05:30",
+  "run_at": "2026-09-06T00:00:56.798572+05:30",
   "results": {
     "bse_ann": {
       "label": "BSE corporate announcements",
@@ -7,31 +7,31 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 0.4
+      "seconds": 0.6
     },
     "nse_ann": {
       "label": "NSE corporate announcements",
       "sweep": 1,
       "needs_indian_ip": true,
       "reachable": true,
-      "size": 3442,
-      "seconds": 4.0
+      "size": 4510,
+      "seconds": 42.6
     },
     "nse_pit": {
       "label": "NSE insider trading (PIT) disclosures",
       "sweep": 7,
       "needs_indian_ip": true,
-      "reachable": true,
-      "size": 2,
-      "seconds": 2.1
+      "reachable": false,
+      "size": 0,
+      "seconds": 112.6
     },
     "nse_sast": {
       "label": "NSE SAST substantial acquisition disclosures",
       "sweep": 7,
       "needs_indian_ip": true,
-      "reachable": true,
-      "size": 2,
-      "seconds": 2.2
+      "reachable": false,
+      "size": 0,
+      "seconds": 92.5
     },
     "nse_bulk": {
       "label": "NSE bulk deals",
@@ -39,23 +39,23 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 3.1
+      "seconds": 112.3
     },
     "nse_universe": {
       "label": "NSE equity list (archives)",
       "sweep": 0,
       "needs_indian_ip": false,
       "reachable": true,
-      "size": 180729,
-      "seconds": 0.7
+      "size": 181507,
+      "seconds": 0.4
     },
     "bse_universe": {
       "label": "BSE active equity scrip list",
       "sweep": 0,
       "needs_indian_ip": false,
       "reachable": true,
-      "size": 4979,
-      "seconds": 1.3
+      "size": 4997,
+      "seconds": 2.7
     },
     "openfda": {
       "label": "openFDA drug approvals",
@@ -63,7 +63,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 2,
-      "seconds": 0.3
+      "seconds": 0.5
     },
     "pib": {
       "label": "PIB press releases (RSS)",
@@ -71,7 +71,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 20,
-      "seconds": 1.0
+      "seconds": 1.1
     },
     "dgtr": {
       "label": "DGTR anti-dumping notifications",
@@ -79,7 +79,7 @@
       "needs_indian_ip": false,
       "reachable": false,
       "size": 0,
-      "seconds": 103.8
+      "seconds": 94.4
     },
     "gnews": {
       "label": "Google News India (RSS)",
@@ -90,29 +90,53 @@
       "seconds": 0.6
     }
   },
-  "indian_ip_sources_failing": 2,
-  "verdict": "Exchange sweeps reachable. This machine can run the full pipeline.",
+  "indian_ip_sources_failing": 4,
+  "verdict": "Exchange sweeps are blocked from this machine. Register a self-hosted runner on your PC \u2014 see README.",
   "relays": {
     "worker": {
-      "fails": 1,
+      "fails": 4,
       "wins": 0,
       "off": false
     },
     "allorigins": {
-      "fails": 1,
+      "fails": 4,
       "wins": 0,
       "off": false
     },
     "codetabs": {
-      "fails": 1,
+      "fails": 4,
       "wins": 0,
       "off": false
     }
   },
   "errors": [
     {
-      "where": "https://www.nseindia.com/api/historical/bulk-deals?from=23-08-2026&to=30-08-2026",
-      "detail": "bad json: JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 13 (char 14)')"
+      "where": "nse cookie warmup",
+      "detail": "HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "where": "nse cookie warmup",
+      "detail": "HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "where": "https://www.nseindia.com/api/corporates-pit?index=equities&from_date=30-08-2026&to_date=06",
+      "detail": "codetabs HTTP 522"
+    },
+    {
+      "where": "nse cookie warmup",
+      "detail": "HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "where": "https://www.nseindia.com/api/corporate-sast-reg29?index=equities&from_date=30-08-2026&to_d",
+      "detail": "codetabs HTTP 503"
+    },
+    {
+      "where": "nse cookie warmup",
+      "detail": "HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "where": "https://www.nseindia.com/api/historical/bulk-deals?from=30-08-2026&to=06-09-2026",
+      "detail": "codetabs HTTP 522"
     },
     {
       "where": "https://www.dgtr.gov.in/",
