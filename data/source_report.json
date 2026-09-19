@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-09-13T00:06:34.790997+05:30",
+  "run_at": "2026-09-20T00:14:39.226237+05:30",
   "results": {
     "bse_ann": {
       "label": "BSE corporate announcements",
@@ -7,15 +7,15 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 0.4
+      "seconds": 0.6
     },
     "nse_ann": {
       "label": "NSE corporate announcements",
       "sweep": 1,
       "needs_indian_ip": true,
       "reachable": true,
-      "size": 3197,
-      "seconds": 5.1
+      "size": 2347,
+      "seconds": 4.0
     },
     "nse_pit": {
       "label": "NSE insider trading (PIT) disclosures",
@@ -23,7 +23,7 @@
       "needs_indian_ip": true,
       "reachable": true,
       "size": 2,
-      "seconds": 2.6
+      "seconds": 2.4
     },
     "nse_sast": {
       "label": "NSE SAST substantial acquisition disclosures",
@@ -31,7 +31,7 @@
       "needs_indian_ip": true,
       "reachable": true,
       "size": 2,
-      "seconds": 2.2
+      "seconds": 2.4
     },
     "nse_bulk": {
       "label": "NSE bulk deals",
@@ -39,23 +39,23 @@
       "needs_indian_ip": true,
       "reachable": false,
       "size": 0,
-      "seconds": 3.0
+      "seconds": 2.8
     },
     "nse_universe": {
       "label": "NSE equity list (archives)",
       "sweep": 0,
       "needs_indian_ip": false,
       "reachable": true,
-      "size": 181324,
-      "seconds": 0.2
+      "size": 182067,
+      "seconds": 0.6
     },
     "bse_universe": {
       "label": "BSE active equity scrip list",
       "sweep": 0,
       "needs_indian_ip": false,
       "reachable": true,
-      "size": 5004,
-      "seconds": 2.0
+      "size": 5037,
+      "seconds": 3.6
     },
     "openfda": {
       "label": "openFDA drug approvals",
@@ -71,7 +71,7 @@
       "needs_indian_ip": false,
       "reachable": true,
       "size": 20,
-      "seconds": 1.6
+      "seconds": 1.4
     },
     "dgtr": {
       "label": "DGTR anti-dumping notifications",
@@ -79,15 +79,15 @@
       "needs_indian_ip": false,
       "reachable": false,
       "size": 0,
-      "seconds": 94.4
+      "seconds": 94.0
     },
     "gnews": {
       "label": "Google News India (RSS)",
       "sweep": 9,
       "needs_indian_ip": false,
       "reachable": true,
-      "size": 100,
-      "seconds": 0.6
+      "size": 94,
+      "seconds": 0.5
     }
   },
   "indian_ip_sources_failing": 2,
@@ -111,7 +111,7 @@
   },
   "errors": [
     {
-      "where": "https://www.nseindia.com/api/historical/bulk-deals?from=06-09-2026&to=13-09-2026",
+      "where": "https://www.nseindia.com/api/historical/bulk-deals?from=13-09-2026&to=20-09-2026",
       "detail": "bad json: JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 13 (char 14)')"
     },
     {
