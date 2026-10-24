@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-18T00:17:33.568334+05:30",
+ "generated_at": "2026-10-25T00:28:57.117469+05:30",
  "window": {
-  "from": "2026-10-11",
-  "to": "2026-10-18"
+  "from": "2026-10-18",
+  "to": "2026-10-25"
  },
  "counts": {
-  "raw": 3229,
-  "events": 128,
-  "new": 128,
-  "candidates": 62,
-  "universe": 2624
+  "raw": 2417,
+  "events": 87,
+  "new": 87,
+  "candidates": 69,
+  "universe": 2633
  },
  "coverage_warning": null,
  "candidates": [
@@ -43,8 +43,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 18,
-     "decay": 0.9772
+     "age_days": 25,
+     "decay": 0.9684
     },
     {
      "item_id": "NSE announcement|2026-09-24|12611870",
@@ -61,8 +61,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 24,
-     "decay": 0.9697
+     "age_days": 31,
+     "decay": 0.961
     },
     {
      "item_id": "NSE announcement|2026-09-23|676241",
@@ -79,8 +79,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 25,
-     "decay": 0.9684
+     "age_days": 32,
+     "decay": 0.9598
     },
     {
      "item_id": "NSE announcement|2026-09-21|10456644",
@@ -97,8 +97,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.9013
+     "age_days": 34,
+     "decay": 0.8773
     },
     {
      "item_id": "NSE announcement|2026-08-28|9455073",
@@ -115,8 +115,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 51,
-     "decay": 0.8217
+     "age_days": 58,
+     "decay": 0.7998
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -133,8 +133,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-16|4382929",
@@ -151,8 +151,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 63,
-     "decay": 0.8507
+     "age_days": 70,
+     "decay": 0.8355
     }
    ]
   },
@@ -168,8 +168,62 @@
    "family_count": 3,
    "earliest_clock": 1,
    "best_grade": "A",
-   "event_count": 12,
+   "event_count": 15,
    "events": [
+    {
+     "item_id": "NSE announcement|2026-10-22|5797568",
+     "date": "2026-10-22",
+     "company": "Juniper Green Energy Limited",
+     "symbol": "JNPR",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "Commencement of commercial production/operations Juniper Green Energy Limited has informed the Exchange about commissioning of additional Wind Capacity",
+     "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_22102026115131_2026_10_22_JGEL_Reg_30_Stellar_Commissioning.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 3,
+     "decay": 0.9962
+    },
+    {
+     "item_id": "NSE announcement|2026-10-21|12909760",
+     "date": "2026-10-21",
+     "company": "Juniper Green Energy Limited",
+     "symbol": "JNPR",
+     "family": "G",
+     "param": "G1",
+     "label": "New subsidiary / JV / acquisition",
+     "clock": 1,
+     "text": "Acquisition Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries",
+     "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_21102026215104_2026_10_21_JGEL_Reg_30_Incorporation_Cosmic_15_and_Kite_15.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 4,
+     "decay": 0.9949
+    },
+    {
+     "item_id": "NSE announcement|2026-10-20|12909760",
+     "date": "2026-10-20",
+     "company": "Juniper Green Energy Limited",
+     "symbol": "JNPR",
+     "family": "G",
+     "param": "G1",
+     "label": "New subsidiary / JV / acquisition",
+     "clock": 1,
+     "text": "Acquisition Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries",
+     "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_20102026232418_2026_10_20_JGEL_Reg_30_Incorporation.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 5,
+     "decay": 0.9936
+    },
     {
      "item_id": "NSE announcement|2026-10-17|2844518",
      "date": "2026-10-17",
@@ -185,8 +239,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 1,
-     "decay": 0.9987
+     "age_days": 8,
+     "decay": 0.9898
     },
     {
      "item_id": "NSE announcement|2026-10-16|6576356",
@@ -203,8 +257,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 2,
-     "decay": 0.9974
+     "age_days": 9,
+     "decay": 0.9885
     },
     {
      "item_id": "NSE announcement|2026-10-12|12017552",
@@ -221,8 +275,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 6,
-     "decay": 0.9923
+     "age_days": 13,
+     "decay": 0.9835
     },
     {
      "item_id": "NSE announcement|2026-10-01|7325385",
@@ -239,8 +293,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 17,
-     "decay": 0.9784
+     "age_days": 24,
+     "decay": 0.9697
     },
     {
      "item_id": "NSE announcement|2026-09-29|11854251",
@@ -257,8 +311,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 19,
-     "decay": 0.9759
+     "age_days": 26,
+     "decay": 0.9672
     },
     {
      "item_id": "NSE announcement|2026-09-17|5595501",
@@ -275,8 +329,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.961
+     "age_days": 38,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE announcement|2026-09-11|879952",
@@ -293,8 +347,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9536
+     "age_days": 44,
+     "decay": 0.9451
     },
     {
      "item_id": "NSE announcement|2026-09-10|879952",
@@ -311,8 +365,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 38,
-     "decay": 0.9524
+     "age_days": 45,
+     "decay": 0.9439
     },
     {
      "item_id": "NSE announcement|2026-09-08|879952",
@@ -329,8 +383,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 40,
-     "decay": 0.95
+     "age_days": 47,
+     "decay": 0.9415
     },
     {
      "item_id": "NSE announcement|2026-09-01|2581923",
@@ -347,8 +401,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 47,
-     "decay": 0.9415
+     "age_days": 54,
+     "decay": 0.933
     },
     {
      "item_id": "NSE announcement|2026-08-15|9307899",
@@ -365,8 +419,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 64,
-     "decay": 0.7816
+     "age_days": 71,
+     "decay": 0.7608
     },
     {
      "item_id": "NSE announcement|2026-08-12|1916121",
@@ -383,8 +437,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 67,
-     "decay": 0.9176
+     "age_days": 74,
+     "decay": 0.9094
     }
    ]
   },
@@ -400,8 +454,26 @@
    "family_count": 3,
    "earliest_clock": 1,
    "best_grade": "A",
-   "event_count": 12,
+   "event_count": 13,
    "events": [
+    {
+     "item_id": "NSE announcement|2026-10-23|1374680",
+     "date": "2026-10-23",
+     "company": "Acme Solar Holdings Limited",
+     "symbol": "ACMESOLAR",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "Commencement of commercial production/operations Acme Solar Holdings Limited has informed the Exchange about an update on commissioning of Battery Energy Storage System (BESS) Project at Rajasthan",
+     "link": "https://nsearchives.nseindia.com/corporate/ACMECS_23102026203138_Intimation23102026.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 2,
+     "decay": 0.9974
+    },
     {
      "item_id": "NSE announcement|2026-10-13|14910567",
      "date": "2026-10-13",
@@ -417,8 +489,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 5,
-     "decay": 0.9936
+     "age_days": 12,
+     "decay": 0.9847
     },
     {
      "item_id": "NSE announcement|2026-10-06|14841247",
@@ -435,8 +507,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9847
+     "age_days": 19,
+     "decay": 0.9759
     },
     {
      "item_id": "NSE announcement|2026-10-05|15015985",
@@ -453,8 +525,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 13,
-     "decay": 0.9835
+     "age_days": 20,
+     "decay": 0.9747
     },
     {
      "item_id": "NSE announcement|2026-10-01|15535410",
@@ -471,8 +543,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 17,
-     "decay": 0.9784
+     "age_days": 24,
+     "decay": 0.9697
     },
     {
      "item_id": "NSE announcement|2026-09-19|6377870",
@@ -489,8 +561,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 29,
-     "decay": 0.9635
+     "age_days": 36,
+     "decay": 0.9548
     },
     {
      "item_id": "NSE announcement|2026-09-17|11363323",
@@ -507,8 +579,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.961
+     "age_days": 38,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE announcement|2026-09-14|992274",
@@ -525,8 +597,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 34,
-     "decay": 0.9573
+     "age_days": 41,
+     "decay": 0.9487
     },
     {
      "item_id": "NSE announcement|2026-09-12|12216841",
@@ -543,8 +615,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 36,
-     "decay": 0.9548
+     "age_days": 43,
+     "decay": 0.9463
     },
     {
      "item_id": "NSE announcement|2026-09-10|12874316",
@@ -561,8 +633,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 38,
-     "decay": 0.9524
+     "age_days": 45,
+     "decay": 0.9439
     },
     {
      "item_id": "NSE announcement|2026-08-28|3332957",
@@ -579,8 +651,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 51,
-     "decay": 0.8217
+     "age_days": 58,
+     "decay": 0.7998
     },
     {
      "item_id": "NSE announcement|2026-08-27|9023139",
@@ -597,8 +669,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 52,
-     "decay": 0.9354
+     "age_days": 59,
+     "decay": 0.9271
     },
     {
      "item_id": "NSE announcement|2026-08-26|13463359",
@@ -615,8 +687,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 53,
-     "decay": 0.9342
+     "age_days": 60,
+     "decay": 0.9259
     }
    ]
   },
@@ -649,8 +721,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 26,
-     "decay": 0.9672
+     "age_days": 33,
+     "decay": 0.9585
     },
     {
      "item_id": "NSE announcement|2026-09-11|7491557",
@@ -667,8 +739,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9536
+     "age_days": 44,
+     "decay": 0.9451
     },
     {
      "item_id": "NSE announcement|2026-08-31|10499805",
@@ -685,8 +757,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 48,
-     "decay": 0.9402
+     "age_days": 55,
+     "decay": 0.9318
     },
     {
      "item_id": "NSE announcement|2026-08-24|681642",
@@ -703,8 +775,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.8091
+     "age_days": 62,
+     "decay": 0.7876
     },
     {
      "item_id": "NSE announcement|2026-08-21|282741",
@@ -721,8 +793,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 58,
-     "decay": 0.9283
+     "age_days": 65,
+     "decay": 0.92
     },
     {
      "item_id": "NSE announcement|2026-08-21|282741",
@@ -739,8 +811,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 58,
-     "decay": 0.7998
+     "age_days": 65,
+     "decay": 0.7786
     },
     {
      "item_id": "NSE announcement|2026-08-19|11273933",
@@ -757,8 +829,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 60,
-     "decay": 0.7937
+     "age_days": 67,
+     "decay": 0.7726
     }
    ]
   },
@@ -791,8 +863,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 6,
-     "decay": 0.9772
+     "age_days": 13,
+     "decay": 0.9512
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
@@ -809,8 +881,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
@@ -827,8 +899,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
@@ -845,8 +917,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-13|10595823",
@@ -863,8 +935,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 35,
-     "decay": 0.9141
+     "age_days": 42,
+     "decay": 0.8978
     },
     {
      "item_id": "NSE announcement|2026-08-24|16696895",
@@ -881,8 +953,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.9318
+     "age_days": 62,
+     "decay": 0.9235
     }
    ]
   },
@@ -915,8 +987,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE announcement|2026-08-31|4086583",
@@ -933,8 +1005,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 48,
-     "decay": 0.9402
+     "age_days": 55,
+     "decay": 0.9318
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-30|13113513",
@@ -951,8 +1023,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 49,
-     "decay": 0.8818
+     "age_days": 56,
+     "decay": 0.8661
     },
     {
      "item_id": "NSE announcement|2026-08-29|5984233",
@@ -969,8 +1041,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 50,
-     "decay": 0.9378
+     "age_days": 57,
+     "decay": 0.9294
     },
     {
      "item_id": "NSE announcement|2026-08-14|3388478",
@@ -987,8 +1059,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.92
+     "age_days": 72,
+     "decay": 0.9117
     }
    ]
   },
@@ -1004,29 +1076,29 @@
    "family_count": 3,
    "earliest_clock": 1,
    "best_grade": "A",
-   "event_count": 4,
+   "event_count": 5,
    "events": [
+    {
+     "item_id": "NSE announcement|2026-10-21|3384468",
+     "date": "2026-10-21",
+     "company": "Grasim Industries Limited",
+     "symbol": "GRASIM",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "Commencement of commercial production/operations Commencement of commercial production of EPICHLOROHYDRIN Plant at Vilayat, Gujarat",
+     "link": "https://nsearchives.nseindia.com/corporate/GRASIM_21102026145138_SEIntimationCommencement.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 4,
+     "decay": 0.9949
+    },
     {
      "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
      "date": "2026-10-11",
-     "company": "Grasim Industries Limited",
-     "symbol": "GRASIM",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
-    },
-    {
-     "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
-     "date": "2026-10-04",
      "company": "Grasim Industries Limited",
      "symbol": "GRASIM",
      "family": "D",
@@ -1043,6 +1115,24 @@
      "decay": 0.9647
     },
     {
+     "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
+     "date": "2026-10-04",
+     "company": "Grasim Industries Limited",
+     "symbol": "GRASIM",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 21,
+     "decay": 0.9475
+    },
+    {
      "item_id": "NSE announcement|2026-09-18|15695795",
      "date": "2026-09-18",
      "company": "Grasim Industries Limited",
@@ -1057,8 +1147,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 30,
-     "decay": 0.9622
+     "age_days": 37,
+     "decay": 0.9536
     },
     {
      "item_id": "NSE announcement|2026-08-11|9839619",
@@ -1075,8 +1165,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 68,
-     "decay": 0.9164
+     "age_days": 75,
+     "decay": 0.9082
     }
    ]
   },
@@ -1109,8 +1199,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.9659
+     "age_days": 34,
+     "decay": 0.9573
     },
     {
      "item_id": "NSE announcement|2026-09-21|8928477",
@@ -1127,8 +1217,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.95
+     "age_days": 34,
+     "decay": 0.9375
     },
     {
      "item_id": "NSE announcement|2026-08-24|10079162",
@@ -1145,8 +1235,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.8091
+     "age_days": 62,
+     "decay": 0.7876
     },
     {
      "item_id": "NSE announcement|2026-08-24|7530231",
@@ -1163,8 +1253,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.9318
+     "age_days": 62,
+     "decay": 0.9235
     }
    ]
   },
@@ -1197,8 +1287,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 19,
-     "decay": 0.9759
+     "age_days": 26,
+     "decay": 0.9672
     },
     {
      "item_id": "NSE announcement|2026-09-17|5232765",
@@ -1215,8 +1305,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.961
+     "age_days": 38,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE announcement|2026-09-17|5232765",
@@ -1233,8 +1323,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.961
+     "age_days": 38,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE announcement|2026-08-31|8622876",
@@ -1251,8 +1341,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 48,
-     "decay": 0.8312
+     "age_days": 55,
+     "decay": 0.8091
     }
    ]
   },
@@ -1285,8 +1375,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE announcement|2026-09-24|10049193",
@@ -1303,8 +1393,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 24,
-     "decay": 0.9697
+     "age_days": 31,
+     "decay": 0.961
     },
     {
      "item_id": "NSE announcement|2026-09-22|6441900",
@@ -1321,8 +1411,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 26,
-     "decay": 0.9672
+     "age_days": 33,
+     "decay": 0.9585
     },
     {
      "item_id": "NSE announcement|2026-09-14|8200828",
@@ -1339,8 +1429,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 34,
-     "decay": 0.9573
+     "age_days": 41,
+     "decay": 0.9487
     }
    ]
   },
@@ -1373,8 +1463,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 17,
-     "decay": 0.9366
+     "age_days": 24,
+     "decay": 0.9117
     },
     {
      "item_id": "NSE announcement|2026-10-01|1050116",
@@ -1391,8 +1481,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 17,
-     "decay": 0.9784
+     "age_days": 24,
+     "decay": 0.9697
     },
     {
      "item_id": "NSE announcement|2026-08-14|6934913",
@@ -1409,8 +1499,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.8839
+     "age_days": 72,
+     "decay": 0.8722
     }
    ]
   },
@@ -1443,8 +1533,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 4,
-     "decay": 0.9847
+     "age_days": 11,
+     "decay": 0.9585
     },
     {
      "item_id": "NSE announcement|2026-09-25|16673002",
@@ -1461,8 +1551,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 23,
-     "decay": 0.9709
+     "age_days": 30,
+     "decay": 0.9622
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-16|4382929",
@@ -1479,8 +1569,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 63,
-     "decay": 0.8507
+     "age_days": 70,
+     "decay": 0.8355
     }
    ]
   },
@@ -1513,8 +1603,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9321
+     "age_days": 44,
+     "decay": 0.9198
     },
     {
      "item_id": "NSE announcement|2026-08-26|13826377",
@@ -1531,8 +1621,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 53,
-     "decay": 0.9342
+     "age_days": 60,
+     "decay": 0.9259
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -1549,8 +1639,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -1583,8 +1673,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 23,
-     "decay": 0.9709
+     "age_days": 30,
+     "decay": 0.9622
     },
     {
      "item_id": "NSE announcement|2026-09-19|9702466",
@@ -1601,8 +1691,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 29,
-     "decay": 0.8943
+     "age_days": 36,
+     "decay": 0.8706
     },
     {
      "item_id": "NSE announcement|2026-08-24|12625184",
@@ -1619,8 +1709,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.8091
+     "age_days": 62,
+     "decay": 0.7876
     },
     {
      "item_id": "NSE announcement|2026-08-18|2179752",
@@ -1637,8 +1727,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 61,
-     "decay": 0.855
+     "age_days": 68,
+     "decay": 0.8398
     },
     {
      "item_id": "NSE announcement|2026-08-18|2244870",
@@ -1655,8 +1745,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 61,
-     "decay": 0.7907
+     "age_days": 68,
+     "decay": 0.7696
     },
     {
      "item_id": "NSE announcement|2026-08-14|14872919",
@@ -1673,8 +1763,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.7786
+     "age_days": 72,
+     "decay": 0.7579
     }
    ]
   },
@@ -1706,8 +1796,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 13,
-     "decay": 0.9512
+     "age_days": 20,
+     "decay": 0.9259
     },
     {
      "item_id": "NSE announcement|2026-09-15|3063629",
@@ -1724,8 +1814,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 33,
-     "decay": 0.9585
+     "age_days": 40,
+     "decay": 0.95
     },
     {
      "item_id": "NSE announcement|2026-09-08|16416305",
@@ -1742,8 +1832,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 40,
-     "decay": 0.8572
+     "age_days": 47,
+     "decay": 0.8344
     },
     {
      "item_id": "NSE announcement|2026-08-10|16772231",
@@ -1760,8 +1850,95 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 69,
-     "decay": 0.7667
+     "age_days": 76,
+     "decay": 0.7463
+    }
+   ]
+  },
+  {
+   "key": "GODREJCP",
+   "symbol": "GODREJCP",
+   "company": "Godrej Consumer Products Limited",
+   "families_fired": [
+    "A",
+    "D"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 4,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-23|12864351",
+     "date": "2026-10-23",
+     "company": "Godrej Consumer Products Limited",
+     "symbol": "GODREJCP",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "Commencement of commercial production/operations Godrej Consumer Products Limited has informed the Exchange about Commencement of commercial production/operations",
+     "link": "https://nsearchives.nseindia.com/corporate/GODREJCP_23102026165750_Disclosure_signed.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 2,
+     "decay": 0.9974
+    },
+    {
+     "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
+     "date": "2026-10-11",
+     "company": "Godrej Consumer Products Limited",
+     "symbol": "GODREJCP",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 14,
+     "decay": 0.9647
+    },
+    {
+     "item_id": "NSE announcement|2026-10-06|8413956",
+     "date": "2026-10-06",
+     "company": "Godrej Consumer Products Limited",
+     "symbol": "GODREJCP",
+     "family": "A",
+     "param": "A1",
+     "label": "Board-approved capex / capacity expansion",
+     "clock": 1,
+     "text": "Press Release Godrej Consumer Products Limited has informed the Exchange regarding a press release dated October 06, 2026, titled \"Godrej Consumer Products Expands in Indonesia with New Manufacturing Facility in Kendal\".",
+     "link": "https://nsearchives.nseindia.com/corporate/GODREJCP_06102026160659_SE_signed.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 19,
+     "decay": 0.9759
+    },
+    {
+     "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
+     "date": "2026-10-04",
+     "company": "Godrej Consumer Products Limited",
+     "symbol": "GODREJCP",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 21,
+     "decay": 0.9475
     }
    ]
   },
@@ -1793,8 +1970,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE announcement|2026-08-21|5129607",
@@ -1811,8 +1988,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 58,
-     "decay": 0.8957
+     "age_days": 65,
+     "decay": 0.8839
     },
     {
      "item_id": "NSE announcement|2026-08-14|37394",
@@ -1829,8 +2006,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.8839
+     "age_days": 72,
+     "decay": 0.8722
     }
    ]
   },
@@ -1862,8 +2039,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
@@ -1880,8 +2057,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE announcement|2026-08-11|402658",
@@ -1898,8 +2075,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 68,
-     "decay": 0.9164
+     "age_days": 75,
+     "decay": 0.9082
     }
    ]
   },
@@ -1931,8 +2108,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 3,
-     "decay": 0.9962
+     "age_days": 10,
+     "decay": 0.9872
     },
     {
      "item_id": "NSE announcement|2026-10-05|14882553",
@@ -1949,8 +2126,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 13,
-     "decay": 0.9835
+     "age_days": 20,
+     "decay": 0.9747
     },
     {
      "item_id": "NSE announcement|2026-08-10|9700269",
@@ -1967,8 +2144,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 69,
-     "decay": 0.9152
+     "age_days": 76,
+     "decay": 0.9071
     }
    ]
   },
@@ -2000,8 +2177,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE announcement|2026-09-24|9603966",
@@ -2018,8 +2195,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 24,
-     "decay": 0.9402
+     "age_days": 31,
+     "decay": 0.9235
     },
     {
      "item_id": "NSE announcement|2026-09-11|6792788",
@@ -2036,8 +2213,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9536
+     "age_days": 44,
+     "decay": 0.9451
     }
    ]
   },
@@ -2069,8 +2246,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 4,
-     "decay": 0.9949
+     "age_days": 11,
+     "decay": 0.986
     },
     {
      "item_id": "NSE announcement|2026-10-01|11872457",
@@ -2087,8 +2264,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 17,
-     "decay": 0.9784
+     "age_days": 24,
+     "decay": 0.9697
     },
     {
      "item_id": "NSE announcement|2026-09-08|1499022",
@@ -2105,8 +2282,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 40,
-     "decay": 0.8572
+     "age_days": 47,
+     "decay": 0.8344
     }
    ]
   },
@@ -2138,8 +2315,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 13,
-     "decay": 0.9835
+     "age_days": 20,
+     "decay": 0.9747
     },
     {
      "item_id": "NSE announcement|2026-09-29|14548210",
@@ -2156,8 +2333,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 19,
-     "decay": 0.9294
+     "age_days": 26,
+     "decay": 0.9047
     },
     {
      "item_id": "NSE announcement|2026-09-26|12307862",
@@ -2174,15 +2351,15 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 22,
-     "decay": 0.9722
+     "age_days": 29,
+     "decay": 0.9635
     }
    ]
   },
   {
-   "key": "GODREJCP",
-   "symbol": "GODREJCP",
-   "company": "Godrej Consumer Products Limited",
+   "key": "SAMHI",
+   "symbol": "SAMHI",
+   "company": "Samhi Hotels Limited",
    "families_fired": [
     "A",
     "D"
@@ -2193,10 +2370,10 @@
    "event_count": 3,
    "events": [
     {
-     "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
-     "date": "2026-10-11",
-     "company": "Godrej Consumer Products Limited",
-     "symbol": "GODREJCP",
+     "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+     "date": "2026-10-25",
+     "company": "Samhi Hotels Limited",
+     "symbol": "SAMHI",
      "family": "D",
      "param": "D4",
      "label": "Substantial acquisition / institutional entry",
@@ -2207,32 +2384,32 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 0,
+     "decay": 1.0
     },
     {
-     "item_id": "NSE announcement|2026-10-06|8413956",
-     "date": "2026-10-06",
-     "company": "Godrej Consumer Products Limited",
-     "symbol": "GODREJCP",
+     "item_id": "NSE announcement|2026-10-12|460752",
+     "date": "2026-10-12",
+     "company": "Samhi Hotels Limited",
+     "symbol": "SAMHI",
      "family": "A",
-     "param": "A1",
-     "label": "Board-approved capex / capacity expansion",
+     "param": "A4",
+     "label": "Land acquisition / state MoU",
      "clock": 1,
-     "text": "Press Release Godrej Consumer Products Limited has informed the Exchange regarding a press release dated October 06, 2026, titled \"Godrej Consumer Products Expands in Indonesia with New Manufacturing Facility in Kendal\".",
-     "link": "https://nsearchives.nseindia.com/corporate/GODREJCP_06102026160659_SE_signed.pdf",
+     "text": "General Updates Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
+     "link": "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf",
      "source": "NSE announcement",
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9847
+     "age_days": 13,
+     "decay": 0.9835
     },
     {
-     "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
-     "date": "2026-10-04",
-     "company": "Godrej Consumer Products Limited",
-     "symbol": "GODREJCP",
+     "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
+     "date": "2026-09-27",
+     "company": "Samhi Hotels Limited",
+     "symbol": "SAMHI",
      "family": "D",
      "param": "D4",
      "label": "Substantial acquisition / institutional entry",
@@ -2243,8 +2420,59 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 28,
+     "decay": 0.9306
+    }
+   ]
+  },
+  {
+   "key": "GUFICBIO",
+   "symbol": "GUFICBIO",
+   "company": "Gufic Biosciences Limited",
+   "families_fired": [
+    "C",
+    "G"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-23|5025434",
+     "date": "2026-10-23",
+     "company": "Gufic Biosciences Limited",
+     "symbol": "GUFICBIO",
+     "family": "C",
+     "param": "C1",
+     "label": "Regulatory approval / successful inspection",
+     "clock": 3,
+     "text": "General Updates Gufic Biosciences Limited has informed the Exchange about Intimation regarding USFDA Pre-Approval Inspection at the Company s Manufacturing facility situated at Indore, Madhya Pradesh",
+     "link": "https://nsearchives.nseindia.com/corporate/GUFIC_23102026204725_finalintimationUSFDA.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 2,
+     "decay": 0.9962
+    },
+    {
+     "item_id": "NSE announcement|2026-08-14|7948232",
+     "date": "2026-08-14",
+     "company": "Gufic Biosciences Limited",
+     "symbol": "GUFICBIO",
+     "family": "G",
+     "param": "G1",
+     "label": "New subsidiary / JV / acquisition",
+     "clock": 1,
+     "text": "Outcome of Board Meeting Gufic Biosciences Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026. and information pertaining approval for Incorporation of Subsidiary in the Philippines and Investment by way of Subscription to its Equity Share Capital",
+     "link": "https://nsearchives.nseindia.com/corporate/GUFIC_14082026193559_finaloutcomesigned.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 72,
+     "decay": 0.9117
     }
    ]
   },
@@ -2276,8 +2504,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 26,
-     "decay": 0.9672
+     "age_days": 33,
+     "decay": 0.9585
     },
     {
      "item_id": "NSE announcement|2026-08-14|3953301",
@@ -2294,8 +2522,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.8463
+     "age_days": 72,
+     "decay": 0.8312
     }
    ]
   },
@@ -2327,8 +2555,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 3,
-     "decay": 0.9923
+     "age_days": 10,
+     "decay": 0.9747
     },
     {
      "item_id": "NSE announcement|2026-08-13|9578509",
@@ -2345,8 +2573,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 66,
-     "decay": 0.9188
+     "age_days": 73,
+     "decay": 0.9106
     }
    ]
   },
@@ -2378,8 +2606,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9536
+     "age_days": 44,
+     "decay": 0.9451
     },
     {
      "item_id": "NSE announcement|2026-08-11|6507678",
@@ -2396,8 +2624,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 68,
-     "decay": 0.8789
+     "age_days": 75,
+     "decay": 0.8673
     }
    ]
   },
@@ -2429,8 +2657,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 8,
-     "decay": 0.9898
+     "age_days": 15,
+     "decay": 0.9809
     },
     {
      "item_id": "NSE announcement|2026-08-09|3566912",
@@ -2447,8 +2675,59 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 70,
-     "decay": 0.7637
+     "age_days": 77,
+     "decay": 0.7434
+    }
+   ]
+  },
+  {
+   "key": "DIACABS",
+   "symbol": "DIACABS",
+   "company": "Diamond Power Infrastructure Limited",
+   "families_fired": [
+    "A",
+    "F"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-19|9460513",
+     "date": "2026-10-19",
+     "company": "Diamond Power Infrastructure Limited",
+     "symbol": "DIACABS",
+     "family": "F",
+     "param": "F1",
+     "label": "Senior appointment",
+     "clock": 1,
+     "text": "Outcome of Board Meeting Appointment of Chief Financial Officer key managerial personnel of the Company",
+     "link": "https://nsearchives.nseindia.com/corporate/DIACABS_19102026185040_Outcome_of_BM.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 6,
+     "decay": 0.9887
+    },
+    {
+     "item_id": "NSE announcement|2026-08-20|15772213",
+     "date": "2026-08-20",
+     "company": "Diamond Power Infrastructure Limited",
+     "symbol": "DIACABS",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "Capacity addition Diamond Power Infrastructure Limited has informed the Exchange about commissioning of a copper wire drawing and copper cable manufacturing line",
+     "link": "https://nsearchives.nseindia.com/corporate/DIACABS_20082026185956_Copper_Line_Exchange_Intimation_Reg30.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 66,
+     "decay": 0.9188
     }
    ]
   },
@@ -2480,8 +2759,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 4,
-     "decay": 0.9949
+     "age_days": 11,
+     "decay": 0.986
     },
     {
      "item_id": "NSE announcement|2026-08-17|13437962",
@@ -2498,8 +2777,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 62,
-     "decay": 0.9235
+     "age_days": 69,
+     "decay": 0.9152
     }
    ]
   },
@@ -2531,8 +2810,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 13,
-     "decay": 0.9512
+     "age_days": 20,
+     "decay": 0.9259
     },
     {
      "item_id": "NSE announcement|2026-08-17|14070744",
@@ -2549,8 +2828,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 62,
-     "decay": 0.9235
+     "age_days": 69,
+     "decay": 0.9152
     }
    ]
   },
@@ -2582,8 +2861,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 25,
-     "decay": 0.9684
+     "age_days": 32,
+     "decay": 0.9598
     },
     {
      "item_id": "NSE announcement|2026-08-29|13231680",
@@ -2600,8 +2879,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 50,
-     "decay": 0.8795
+     "age_days": 57,
+     "decay": 0.8639
     }
    ]
   },
@@ -2633,8 +2912,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 18,
-     "decay": 0.9772
+     "age_days": 25,
+     "decay": 0.9684
     },
     {
      "item_id": "NSE announcement|2026-08-27|13788103",
@@ -2651,8 +2930,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 52,
-     "decay": 0.9354
+     "age_days": 59,
+     "decay": 0.9271
     }
    ]
   },
@@ -2684,8 +2963,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 24,
-     "decay": 0.9697
+     "age_days": 31,
+     "decay": 0.961
     },
     {
      "item_id": "NSE announcement|2026-08-25|10949246",
@@ -2702,8 +2981,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 54,
-     "decay": 0.933
+     "age_days": 61,
+     "decay": 0.9247
     }
    ]
   },
@@ -2735,8 +3014,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9911
+     "age_days": 14,
+     "decay": 0.9822
     },
     {
      "item_id": "NSE announcement|2026-08-31|5289442",
@@ -2753,8 +3032,59 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 48,
-     "decay": 0.9402
+     "age_days": 55,
+     "decay": 0.9318
+    }
+   ]
+  },
+  {
+   "key": "PITTIENG",
+   "symbol": "PITTIENG",
+   "company": "Pitti Engineering Limited",
+   "families_fired": [
+    "A",
+    "G"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-22|947230",
+     "date": "2026-10-22",
+     "company": "Pitti Engineering Limited",
+     "symbol": "PITTIENG",
+     "family": "A",
+     "param": "A1",
+     "label": "Board-approved capex / capacity expansion",
+     "clock": 1,
+     "text": "General Updates Pitti Engineering Limited has informed the Exchange about approval of Capex and capacity expansion",
+     "link": "https://nsearchives.nseindia.com/corporate/PITTIENG_22102026190741_CAPEX.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 3,
+     "decay": 0.9962
+    },
+    {
+     "item_id": "NSE announcement|2026-09-08|8035667",
+     "date": "2026-09-08",
+     "company": "Pitti Engineering Limited",
+     "symbol": "PITTIENG",
+     "family": "G",
+     "param": "G1",
+     "label": "New subsidiary / JV / acquisition",
+     "clock": 1,
+     "text": "Amalgamation/Merger Pitti Engineering Limited has informed the Exchange about Scheme of Amalgamation approved by the Hon''ble NCLT",
+     "link": "https://nsearchives.nseindia.com/corporate/PITTIENG_08092026190745_NCLTORDER.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 47,
+     "decay": 0.9415
     }
    ]
   },
@@ -2786,8 +3116,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 20,
-     "decay": 0.9627
+     "age_days": 27,
+     "decay": 0.95
     },
     {
      "item_id": "NSE announcement|2026-09-07|5093520",
@@ -2804,8 +3134,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 41,
-     "decay": 0.9487
+     "age_days": 48,
+     "decay": 0.9402
     }
    ]
   },
@@ -2837,8 +3167,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE announcement|2026-09-21|12266377",
@@ -2855,59 +3185,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.9659
-    }
-   ]
-  },
-  {
-   "key": "SAMHI",
-   "symbol": "SAMHI",
-   "company": "Samhi Hotels Limited",
-   "families_fired": [
-    "A",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 1,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE announcement|2026-10-12|460752",
-     "date": "2026-10-12",
-     "company": "Samhi Hotels Limited",
-     "symbol": "SAMHI",
-     "family": "A",
-     "param": "A4",
-     "label": "Land acquisition / state MoU",
-     "clock": 1,
-     "text": "General Updates Samhi Hotels Limited has informed the Exchange about General Update on issuance of Commencement Certificate from Maharashtra Industrial Development Corporation (A Government of Maharashtra Undertaking) to Duet India Hotels (Navi Mumbai) Private Limited",
-     "link": "https://nsearchives.nseindia.com/corporate/Samhi_12102026185535_MIDC_approval_Duet_Navi_Mumbai.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 6,
-     "decay": 0.9923
-    },
-    {
-     "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
-     "date": "2026-09-27",
-     "company": "Samhi Hotels Limited",
-     "symbol": "SAMHI",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 34,
+     "decay": 0.9573
     }
    ]
   },
@@ -2939,8 +3218,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9847
+     "age_days": 19,
+     "decay": 0.9759
     },
     {
      "item_id": "NSE announcement|2026-09-29|13937637",
@@ -2957,8 +3236,59 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 19,
-     "decay": 0.9759
+     "age_days": 26,
+     "decay": 0.9672
+    }
+   ]
+  },
+  {
+   "key": "RANEHOLDIN",
+   "symbol": "RANEHOLDIN",
+   "company": "Rane Holdings Limited",
+   "families_fired": [
+    "B",
+    "G"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-22|11067105",
+     "date": "2026-10-22",
+     "company": "Rane Holdings Limited",
+     "symbol": "RANEHOLDIN",
+     "family": "G",
+     "param": "G1",
+     "label": "New subsidiary / JV / acquisition",
+     "clock": 1,
+     "text": "Acquisition The Finance Committee of the Board of Directors of the Company at their meeting held today, have, inter alia, approved further investment of equity in the joint venture M/s. ZF LIFETEC Rane Automotive India Private Limited. The meeting concluded at 11:15 AM",
+     "link": "https://nsearchives.nseindia.com/corporate/RANEHOLDIN_22102026114254_RHL_ZLRAI_Investment_Oct2026_SD.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 3,
+     "decay": 0.9962
+    },
+    {
+     "item_id": "NSE announcement|2026-10-09|15037301",
+     "date": "2026-10-09",
+     "company": "Rane Holdings Limited",
+     "symbol": "RANEHOLDIN",
+     "family": "B",
+     "param": "B2",
+     "label": "Large single order",
+     "clock": 3,
+     "text": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company Rane Steering Systems Private Limited, Wholly Owned Subsidiary of the Company has received an order from GST Authority, Chennai dropping the demand of Rs.10.07 Crores including penalty in entirety.",
+     "link": "https://nsearchives.nseindia.com/corporate/RANEHOLDIN_09102026164353_RHL_RSSL_GST_SCN_08102026_SD.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 16,
+     "decay": 0.9402
     }
    ]
   },
@@ -2990,8 +3320,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 3,
-     "decay": 0.9962
+     "age_days": 10,
+     "decay": 0.9872
     },
     {
      "item_id": "NSE announcement|2026-10-07|1920765",
@@ -3008,8 +3338,110 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 11,
-     "decay": 0.986
+     "age_days": 18,
+     "decay": 0.9772
+    }
+   ]
+  },
+  {
+   "key": "SSWL",
+   "symbol": "SSWL",
+   "company": "Steel Strips Wheels Limited",
+   "families_fired": [
+    "A",
+    "D"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-23|526152",
+     "date": "2026-10-23",
+     "company": "Steel Strips Wheels Limited",
+     "symbol": "SSWL",
+     "family": "A",
+     "param": "A1",
+     "label": "Board-approved capex / capacity expansion",
+     "clock": 1,
+     "text": "Outcome of Board Meeting Steel Strips Wheels Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026 and Interim Dividend, Change in SMP & new Manufacturing facility set up",
+     "link": "https://nsearchives.nseindia.com/corporate/SSWL_23102026115430_Outcome30092026Signed.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 2,
+     "decay": 0.9974
+    },
+    {
+     "item_id": "NSE SAST Reg 29|2026-10-18|14036003",
+     "date": "2026-10-18",
+     "company": "Steel Strips Wheels Limited",
+     "symbol": "SSWL",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 7,
+     "decay": 0.9822
+    }
+   ]
+  },
+  {
+   "key": "KAJARIACER",
+   "symbol": "KAJARIACER",
+   "company": "Kajaria Ceramics Limited",
+   "families_fired": [
+    "A",
+    "D"
+   ],
+   "family_count": 2,
+   "earliest_clock": 1,
+   "best_grade": "A",
+   "event_count": 2,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-24|8908795",
+     "date": "2026-10-24",
+     "company": "Kajaria Ceramics Limited",
+     "symbol": "KAJARIACER",
+     "family": "A",
+     "param": "A1",
+     "label": "Board-approved capex / capacity expansion",
+     "clock": 1,
+     "text": "General Updates a. Approved revised production capacity and cost thereto towards the expansion of the manufacturing facility at Srikalahasti (Andhra Pradesh)b. Approved revised cost towards the expansion of the manufacturing facility at Gailpur (Rajasthan)c. Approved to set up a new manufacturing facility of tiles adhesive in Durgapur (West Bengal)",
+     "link": "https://nsearchives.nseindia.com/corporate/KAJARIACER_24102026190749_Outcome.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 1,
+     "decay": 0.9987
+    },
+    {
+     "item_id": "NSE SAST Reg 29|2026-10-18|14036003",
+     "date": "2026-10-18",
+     "company": "Kajaria Ceramics Limited",
+     "symbol": "KAJARIACER",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 7,
+     "decay": 0.9822
     }
    ]
   },
@@ -3041,8 +3473,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 2,
-     "decay": 0.9923
+     "age_days": 9,
+     "decay": 0.9659
     },
     {
      "item_id": "NSE announcement|2026-10-16|14335808",
@@ -3059,8 +3491,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 2,
-     "decay": 0.9923
+     "age_days": 9,
+     "decay": 0.9659
     },
     {
      "item_id": "NSE announcement|2026-09-21|999036",
@@ -3077,8 +3509,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.9013
+     "age_days": 34,
+     "decay": 0.8773
     },
     {
      "item_id": "NSE announcement|2026-09-07|12931844",
@@ -3095,8 +3527,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 41,
-     "decay": 0.8539
+     "age_days": 48,
+     "decay": 0.8312
     },
     {
      "item_id": "NSE announcement|2026-08-24|4993921",
@@ -3113,8 +3545,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 55,
-     "decay": 0.8091
+     "age_days": 62,
+     "decay": 0.7876
     },
     {
      "item_id": "NSE announcement|2026-08-18|6815674",
@@ -3131,8 +3563,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 61,
-     "decay": 0.7907
+     "age_days": 68,
+     "decay": 0.7696
     },
     {
      "item_id": "NSE announcement|2026-08-13|14846492",
@@ -3149,8 +3581,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 66,
-     "decay": 0.7756
+     "age_days": 73,
+     "decay": 0.7549
     },
     {
      "item_id": "NSE announcement|2026-08-12|7116566",
@@ -3167,8 +3599,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 67,
-     "decay": 0.842
+     "age_days": 74,
+     "decay": 0.827
     }
    ]
   },
@@ -3200,8 +3632,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
@@ -3218,8 +3650,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
@@ -3236,8 +3668,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-13|10595823",
@@ -3254,8 +3686,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 35,
-     "decay": 0.9141
+     "age_days": 42,
+     "decay": 0.8978
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-30|13113513",
@@ -3272,8 +3704,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 49,
-     "decay": 0.8818
+     "age_days": 56,
+     "decay": 0.8661
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -3290,8 +3722,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     },
     {
      "item_id": "NSE announcement|2026-08-20|12599110",
@@ -3308,8 +3740,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 59,
-     "decay": 0.9271
+     "age_days": 66,
+     "decay": 0.9188
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-16|4382929",
@@ -3326,8 +3758,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 63,
-     "decay": 0.8507
+     "age_days": 70,
+     "decay": 0.8355
     }
    ]
   },
@@ -3359,8 +3791,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 6,
-     "decay": 0.9847
+     "age_days": 13,
+     "decay": 0.9672
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
@@ -3377,8 +3809,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE announcement|2026-09-21|2237616",
@@ -3395,8 +3827,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.933
+     "age_days": 34,
+     "decay": 0.9164
     },
     {
      "item_id": "NSE announcement|2026-09-17|4720388",
@@ -3413,8 +3845,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.9235
+     "age_days": 38,
+     "decay": 0.9071
     },
     {
      "item_id": "NSE announcement|2026-09-04|1485177",
@@ -3431,8 +3863,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 44,
-     "decay": 0.8932
+     "age_days": 51,
+     "decay": 0.8773
     },
     {
      "item_id": "NSE announcement|2026-08-18|16386969",
@@ -3449,8 +3881,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 61,
-     "decay": 0.8906
+     "age_days": 68,
+     "decay": 0.8789
     }
    ]
   },
@@ -3482,8 +3914,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 6,
-     "decay": 0.9772
+     "age_days": 13,
+     "decay": 0.9512
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-04|8262103",
@@ -3500,8 +3932,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
@@ -3518,8 +3950,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-30|13113513",
@@ -3536,8 +3968,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 49,
-     "decay": 0.8818
+     "age_days": 56,
+     "decay": 0.8661
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -3554,8 +3986,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -3587,8 +4019,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 1,
-     "decay": 0.9974
+     "age_days": 8,
+     "decay": 0.9797
     },
     {
      "item_id": "NSE announcement|2026-10-06|16686619",
@@ -3605,8 +4037,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9697
+     "age_days": 19,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE announcement|2026-09-17|3908236",
@@ -3623,8 +4055,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 31,
-     "decay": 0.9235
+     "age_days": 38,
+     "decay": 0.9071
     },
     {
      "item_id": "NSE announcement|2026-08-12|8820262",
@@ -3641,8 +4073,95 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 67,
-     "decay": 0.9176
+     "age_days": 74,
+     "decay": 0.9094
+    }
+   ]
+  },
+  {
+   "key": "POWERGRID",
+   "symbol": "POWERGRID",
+   "company": "Power Grid Corporation of India Limited",
+   "families_fired": [
+    "A",
+    "D"
+   ],
+   "family_count": 2,
+   "earliest_clock": 2,
+   "best_grade": "A",
+   "event_count": 4,
+   "events": [
+    {
+     "item_id": "NSE announcement|2026-10-23|11749921",
+     "date": "2026-10-23",
+     "company": "Power Grid Corporation of India Limited",
+     "symbol": "POWERGRID",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission Scheme for integration of Renewable Energy Zone (Phase-II) in Koppal-II (Phase-A & B) and Gadag-II (Phase- A) in Karnataka .",
+     "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_23102026170415_BSENSEReg30dt23102026_signed.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 2,
+     "decay": 0.9974
+    },
+    {
+     "item_id": "NSE announcement|2026-10-11|3487356",
+     "date": "2026-10-11",
+     "company": "Power Grid Corporation of India Limited",
+     "symbol": "POWERGRID",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission system for evacuation of power from REZ in Rajasthan (20 GW) under phase-III Part-C1 .",
+     "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_11102026222253_BSENSEReg30Commissioning.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 14,
+     "decay": 0.9822
+    },
+    {
+     "item_id": "NSE announcement|2026-10-08|5150522",
+     "date": "2026-10-08",
+     "company": "Power Grid Corporation of India Limited",
+     "symbol": "POWERGRID",
+     "family": "A",
+     "param": "A5",
+     "label": "Commissioning / commencement of commercial production",
+     "clock": 3,
+     "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission Scheme for Solar Energy Zone in Bidar (2500 MW), Karnataka (TBCB) .",
+     "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_08102026221647_BSENSEReg30dt08102026LOI.pdf",
+     "source": "NSE announcement",
+     "sweep": 1,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 17,
+     "decay": 0.9784
+    },
+    {
+     "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
+     "date": "2026-08-22",
+     "company": "Power Grid Corporation of India Limited",
+     "symbol": "POWERGRID",
+     "family": "D",
+     "param": "D4",
+     "label": "Substantial acquisition / institutional entry",
+     "clock": 2,
+     "text": "NSE SAST Reg 29:",
+     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+     "source": "NSE SAST Reg 29",
+     "sweep": 7,
+     "grade": "A",
+     "in_universe": true,
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -3674,8 +4193,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 1,
-     "decay": 0.9981
+     "age_days": 8,
+     "decay": 0.9849
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
@@ -3692,8 +4211,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE announcement|2026-09-16|5371931",
@@ -3710,8 +4229,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 32,
-     "decay": 0.941
+     "age_days": 39,
+     "decay": 0.9286
     },
     {
      "item_id": "NSE announcement|2026-09-11|16005174",
@@ -3728,8 +4247,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 37,
-     "decay": 0.9321
+     "age_days": 44,
+     "decay": 0.9198
     }
    ]
   },
@@ -3761,8 +4280,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE announcement|2026-09-30|2748516",
@@ -3779,8 +4298,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 18,
-     "decay": 0.9548
+     "age_days": 25,
+     "decay": 0.9378
     },
     {
      "item_id": "NSE announcement|2026-09-29|2748516",
@@ -3797,8 +4316,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 19,
-     "decay": 0.9524
+     "age_days": 26,
+     "decay": 0.9354
     },
     {
      "item_id": "NSE announcement|2026-09-09|8945543",
@@ -3815,8 +4334,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 39,
-     "decay": 0.9512
+     "age_days": 46,
+     "decay": 0.9427
     }
    ]
   },
@@ -3848,8 +4367,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 4,
-     "decay": 0.9924
+     "age_days": 11,
+     "decay": 0.9793
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -3866,8 +4385,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     },
     {
      "item_id": "NSE announcement|2026-08-14|12583509",
@@ -3884,8 +4403,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 65,
-     "decay": 0.8839
+     "age_days": 72,
+     "decay": 0.8722
     }
    ]
   },
@@ -3917,8 +4436,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9697
+     "age_days": 19,
+     "decay": 0.9524
     },
     {
      "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
@@ -3935,8 +4454,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE announcement|2026-08-11|6761955",
@@ -3953,8 +4472,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 68,
-     "decay": 0.7696
+     "age_days": 75,
+     "decay": 0.7492
     }
    ]
   },
@@ -3986,8 +4505,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 12,
-     "decay": 0.9847
+     "age_days": 19,
+     "decay": 0.9759
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-30|13113513",
@@ -4004,8 +4523,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 49,
-     "decay": 0.8818
+     "age_days": 56,
+     "decay": 0.8661
     },
     {
      "item_id": "NSE announcement|2026-08-19|15507958",
@@ -4022,8 +4541,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 60,
-     "decay": 0.8572
+     "age_days": 67,
+     "decay": 0.842
     }
    ]
   },
@@ -4055,8 +4574,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
+     "age_days": 28,
+     "decay": 0.9306
     },
     {
      "item_id": "NSE announcement|2026-08-27|11613519",
@@ -4073,8 +4592,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 52,
-     "decay": 0.8185
+     "age_days": 59,
+     "decay": 0.7968
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -4091,77 +4610,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
-    }
-   ]
-  },
-  {
-   "key": "POWERGRID",
-   "symbol": "POWERGRID",
-   "company": "Power Grid Corporation of India Limited",
-   "families_fired": [
-    "A",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 3,
-   "events": [
-    {
-     "item_id": "NSE announcement|2026-10-11|3487356",
-     "date": "2026-10-11",
-     "company": "Power Grid Corporation of India Limited",
-     "symbol": "POWERGRID",
-     "family": "A",
-     "param": "A5",
-     "label": "Commissioning / commencement of commercial production",
-     "clock": 3,
-     "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission system for evacuation of power from REZ in Rajasthan (20 GW) under phase-III Part-C1 .",
-     "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_11102026222253_BSENSEReg30Commissioning.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9911
-    },
-    {
-     "item_id": "NSE announcement|2026-10-08|5150522",
-     "date": "2026-10-08",
-     "company": "Power Grid Corporation of India Limited",
-     "symbol": "POWERGRID",
-     "family": "A",
-     "param": "A5",
-     "label": "Commissioning / commencement of commercial production",
-     "clock": 3,
-     "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission Scheme for Solar Energy Zone in Bidar (2500 MW), Karnataka (TBCB) .",
-     "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_08102026221647_BSENSEReg30dt08102026LOI.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 10,
-     "decay": 0.9872
-    },
-    {
-     "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
-     "date": "2026-08-22",
-     "company": "Power Grid Corporation of India Limited",
-     "symbol": "POWERGRID",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -4193,8 +4643,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 29,
-     "decay": 0.9283
+     "age_days": 36,
+     "decay": 0.9117
     },
     {
      "item_id": "NSE announcement|2026-09-03|12920801",
@@ -4211,8 +4661,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 45,
-     "decay": 0.9439
+     "age_days": 52,
+     "decay": 0.9354
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -4229,8 +4679,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -4262,8 +4712,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 27,
-     "decay": 0.95
+     "age_days": 34,
+     "decay": 0.9375
     },
     {
      "item_id": "NSE announcement|2026-09-05|5993954",
@@ -4280,8 +4730,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 43,
-     "decay": 0.9216
+     "age_days": 50,
+     "decay": 0.9094
     },
     {
      "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
@@ -4298,8 +4748,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
+     "age_days": 64,
+     "decay": 0.8485
     }
    ]
   },
@@ -4331,8 +4781,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 9,
-     "decay": 0.9885
+     "age_days": 16,
+     "decay": 0.9797
     },
     {
      "item_id": "NSE announcement|2026-09-10|16123022",
@@ -4349,8 +4799,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 38,
-     "decay": 0.9071
+     "age_days": 45,
+     "decay": 0.8909
     },
     {
      "item_id": "NSE announcement|2026-08-28|13354589",
@@ -4367,8 +4817,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 51,
-     "decay": 0.8773
+     "age_days": 58,
+     "decay": 0.8617
     }
    ]
   },
@@ -4400,8 +4850,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 0,
-     "decay": 1.0
+     "age_days": 7,
+     "decay": 0.9822
     },
     {
      "item_id": "NSE SAST Reg 29|2026-10-11|11333679",
@@ -4418,8 +4868,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 7,
-     "decay": 0.9822
+     "age_days": 14,
+     "decay": 0.9647
     },
     {
      "item_id": "NSE announcement|2026-09-02|5919378",
@@ -4436,8 +4886,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 46,
-     "decay": 0.9427
+     "age_days": 53,
+     "decay": 0.9342
     }
    ]
   },
@@ -4469,8 +4919,8 @@
      "sweep": 7,
      "grade": "A",
      "in_universe": true,
-     "age_days": 14,
-     "decay": 0.9647
+     "age_days": 21,
+     "decay": 0.9475
     },
     {
      "item_id": "NSE announcement|2026-09-28|6335351",
@@ -4487,8 +4937,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 20,
-     "decay": 0.95
+     "age_days": 27,
+     "decay": 0.933
     },
     {
      "item_id": "NSE announcement|2026-09-25|774558",
@@ -4505,314 +4955,8 @@
      "sweep": 1,
      "grade": "A",
      "in_universe": true,
-     "age_days": 23,
-     "decay": 0.9709
-    }
-   ]
-  },
-  {
-   "key": "EMSLIMITED",
-   "symbol": "EMSLIMITED",
-   "company": "EMS Limited",
-   "families_fired": [
-    "B",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE announcement|2026-08-21|5812824",
-     "date": "2026-08-21",
-     "company": "EMS Limited",
-     "symbol": "EMSLIMITED",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "Updates Ems Limited has informed the Exchange Regarding Release of Pledged Shares of Mr. Ramveer Singh, Promoter of the company in compliance with Regulation 31(1) & 31(2) of SEBI (SAST) Regulations, 2011",
-     "link": "https://nsearchives.nseindia.com/corporate/EMSLIMITED_21082026202407_Intimation_Release_Pledged_Shares.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 58,
-     "decay": 0.8617
-    },
-    {
-     "item_id": "NSE announcement|2026-08-20|952991",
-     "date": "2026-08-20",
-     "company": "EMS Limited",
-     "symbol": "EMSLIMITED",
-     "family": "B",
-     "param": "B4",
-     "label": "Government / PSU tender award",
-     "clock": 3,
-     "text": "Bagging/Receiving of orders/contracts Ems Limited has informed the Exchange about Bagging/Receiving of orders/contracts, Receipt of Letter of Acceptance (LOA) from UP Jal Nigam (Urban), Varanasi",
-     "link": "https://nsearchives.nseindia.com/corporate/EMSLIMITED_20082026125827_Intimation_LOA_Varanasi.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 59,
-     "decay": 0.7968
-    }
-   ]
-  },
-  {
-   "key": "NATCOPHARM",
-   "symbol": "NATCOPHARM",
-   "company": "Natco Pharma Limited",
-   "families_fired": [
-    "C",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE SAST Reg 29|2026-08-30|13113513",
-     "date": "2026-08-30",
-     "company": "Natco Pharma Limited",
-     "symbol": "NATCOPHARM",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 49,
-     "decay": 0.8818
-    },
-    {
-     "item_id": "NSE announcement|2026-08-21|4442404",
-     "date": "2026-08-21",
-     "company": "Natco Pharma Limited",
-     "symbol": "NATCOPHARM",
-     "family": "C",
-     "param": "C1",
-     "label": "Regulatory approval / successful inspection",
-     "clock": 3,
-     "text": "Press Release Natco Pharma Limited has informed the Exchange regarding a press release dated August 21, 2026, titled \"Conclusion of US FDA Inspection at our Visakhapatnam, Andhra Pradesh, Finished Dosage Formulations (FDF) Unit\".",
-     "link": "https://nsearchives.nseindia.com/corporate/NATCOPHARM_21082026172327_DisclosuretoSE21082026.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 58,
-     "decay": 0.8957
-    }
-   ]
-  },
-  {
-   "key": "BCLIND",
-   "symbol": "BCLIND",
-   "company": "Bcl Industries Limited",
-   "families_fired": [
-    "B",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE SAST Reg 29|2026-08-22|7323936",
-     "date": "2026-08-22",
-     "company": "Bcl Industries Limited",
-     "symbol": "BCLIND",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 57,
-     "decay": 0.8639
-    },
-    {
-     "item_id": "NSE announcement|2026-08-17|504647",
-     "date": "2026-08-17",
-     "company": "Bcl Industries Limited",
-     "symbol": "BCLIND",
-     "family": "B",
-     "param": "B1",
-     "label": "Order book update",
-     "clock": 3,
-     "text": "Updates Bcl Industries Limited has informed the Exchange regarding order book for Supply of Ethanol to OMC s'.",
-     "link": "https://nsearchives.nseindia.com/corporate/BCLIND_17082026110432_Order_Book_Update.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 62,
-     "decay": 0.7876
-    }
-   ]
-  },
-  {
-   "key": "ADANIENSOL",
-   "symbol": "ADANIENSOL",
-   "company": "Adani Energy Solutions Limited",
-   "families_fired": [
-    "B",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE announcement|2026-09-08|3603883",
-     "date": "2026-09-08",
-     "company": "Adani Energy Solutions Limited",
-     "symbol": "ADANIENSOL",
-     "family": "B",
-     "param": "B4",
-     "label": "Government / PSU tender award",
-     "clock": 3,
-     "text": "General Updates Adani Energy Solutions Limited has informed the Exchange about Letter of Award for supply of 2,500 MW Round-the-Clock (RTC) Power and Execution of Power Purchase Agreement",
-     "link": "https://nsearchives.nseindia.com/corporate/ADANITRANS_08092026231922_AESLMSEDCLLoA.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 40,
-     "decay": 0.8572
-    },
-    {
-     "item_id": "NSE announcement|2026-09-03|2033719",
-     "date": "2026-09-03",
-     "company": "Adani Energy Solutions Limited",
-     "symbol": "ADANIENSOL",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "Disclosure under SEBI Takeover Regulations GQG Partners LLC has submitted the Exchange a copy of Disclosure under Regulation 29(2) of SEBI (SAST) Regulations, 2011.",
-     "link": "https://nsearchives.nseindia.com/corporate/team_bbodade_03092026170222_02092026183742_ADANIENSOL.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 45,
-     "decay": 0.8909
-    }
-   ]
-  },
-  {
-   "key": "BERGEPAINT",
-   "symbol": "BERGEPAINT",
-   "company": "Berger Paints (I) Limited",
-   "families_fired": [
-    "A",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE SAST Reg 29|2026-09-27|6948701",
-     "date": "2026-09-27",
-     "company": "Berger Paints (I) Limited",
-     "symbol": "BERGEPAINT",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "NSE SAST Reg 29:",
-     "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
-     "source": "NSE SAST Reg 29",
-     "sweep": 7,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 21,
-     "decay": 0.9475
-    },
-    {
-     "item_id": "NSE announcement|2026-09-08|2913248",
-     "date": "2026-09-08",
-     "company": "Berger Paints (I) Limited",
-     "symbol": "BERGEPAINT",
-     "family": "A",
-     "param": "A5",
-     "label": "Commissioning / commencement of commercial production",
-     "clock": 3,
-     "text": "Commencement of commercial production/operations Berger Paints (I) Limited has informed the Exchange about Commencement of commercial production/operations",
-     "link": "https://nsearchives.nseindia.com/corporate/PAINTBERGE_08092026193217_Commercial_Production_Hindupur_Final_080926.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 40,
-     "decay": 0.95
-    }
-   ]
-  },
-  {
-   "key": "NGLFINE",
-   "symbol": "NGLFINE",
-   "company": "NGL Fine-Chem Limited",
-   "families_fired": [
-    "A",
-    "D"
-   ],
-   "family_count": 2,
-   "earliest_clock": 2,
-   "best_grade": "A",
-   "event_count": 2,
-   "events": [
-    {
-     "item_id": "NSE announcement|2026-10-13|7405297",
-     "date": "2026-10-13",
-     "company": "NGL Fine-Chem Limited",
-     "symbol": "NGLFINE",
-     "family": "D",
-     "param": "D4",
-     "label": "Substantial acquisition / institutional entry",
-     "clock": 2,
-     "text": "Updates NGL Fine-Chem Limited has informed the Exchange regarding 'Intimation regarding receipt of SEBI Exemption Order under Regulation 11(5) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011'.",
-     "link": "https://nsearchives.nseindia.com/corporate/NGL2022_13102026105213_Final_Reg_30_Disclosure_SEBI_Order_Signed.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 5,
-     "decay": 0.9872
-    },
-    {
-     "item_id": "NSE announcement|2026-09-24|1184925",
-     "date": "2026-09-24",
-     "company": "NGL Fine-Chem Limited",
-     "symbol": "NGLFINE",
-     "family": "A",
-     "param": "A5",
-     "label": "Commissioning / commencement of commercial production",
-     "clock": 3,
-     "text": "Commencement of commercial production/operations NGL Fine-Chem Limited has informed the Exchange about Commencement of commercial production/operations",
-     "link": "https://nsearchives.nseindia.com/corporate/NGL2022_24092026152741_Final_Reg_30_Disclosure_Commissioning_of_Phase_II_24092026_Signed.pdf",
-     "source": "NSE announcement",
-     "sweep": 1,
-     "grade": "A",
-     "in_universe": true,
-     "age_days": 24,
-     "decay": 0.9697
+     "age_days": 30,
+     "decay": 0.9622
     }
    ]
   }
@@ -29553,6 +29697,1398 @@
    "sweep": 9,
    "grade": "C",
    "in_universe": false
+  },
+  {
+   "item_id": "NSE announcement|2026-10-24|8908795",
+   "date": "2026-10-24",
+   "company": "Kajaria Ceramics Limited",
+   "symbol": "KAJARIACER",
+   "family": "A",
+   "param": "A1",
+   "label": "Board-approved capex / capacity expansion",
+   "clock": 1,
+   "text": "General Updates a. Approved revised production capacity and cost thereto towards the expansion of the manufacturing facility at Srikalahasti (Andhra Pradesh)b. Approved revised cost towards the expansion of the manufacturing facility at Gailpur (Rajasthan)c. Approved to set up a new manufacturing facility of tiles adhesive in Durgapur (West Bengal)",
+   "link": "https://nsearchives.nseindia.com/corporate/KAJARIACER_24102026190749_Outcome.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-24|5577889",
+   "date": "2026-10-24",
+   "company": "Netweb Technologies India Limited",
+   "symbol": "NETWEB",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Netweb Technologies India Limited has informed the Exchange about General Updates regarding proposed incorporation of wholly owned subsidiary",
+   "link": "https://nsearchives.nseindia.com/corporate/NETWEB1234_24102026164235_Results_30092026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-24|3128124",
+   "date": "2026-10-24",
+   "company": "Power Finance Corporation Limited",
+   "symbol": "PFC",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Incorporation of wholly owned Subsidiary of PFC Consulting Limited (a wholly owned Subsidiary of Power Finance Corporation Limited)- KHUSHKHERA TRANSMISSION LIMITED",
+   "link": "https://nsearchives.nseindia.com/corporate/PFC2023_24102026141947_Intimation24102026Signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-24|9440632",
+   "date": "2026-10-24",
+   "company": "B. L. Kashyap and Sons Limited",
+   "symbol": "BLKASHYAP",
+   "family": "B",
+   "param": "B4",
+   "label": "Government / PSU tender award",
+   "clock": 3,
+   "text": "Bagging/Receiving of orders/contracts B. L. Kashyap and Sons Limited has informed the Exchange about the Company has secured a work order of Rs. 495.86 Crores.",
+   "link": "https://nsearchives.nseindia.com/corporate/BLKASHYAP_24102026123628_BLK_LOA.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|15507393",
+   "date": "2026-10-23",
+   "company": "Raymond Realty Limited",
+   "symbol": "RAYMONDREL",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "General Updates Raymond Realty Limited has informed the Exchange about In-principle approval from BSE and NSE of Preferential Issue of convertible warrants on a private placement basis.",
+   "link": "https://nsearchives.nseindia.com/corporate/RRL_23102026225313_SE_Intimation.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|13027457",
+   "date": "2026-10-23",
+   "company": "Ideaforge Technology Limited",
+   "symbol": "IDEAFORGE",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Termination of Joint Venture Agreement between ideaForge Technology Inc.(wholly-owned subsidiary of ideaForge Technology Limited) and First Breach Inc.",
+   "link": "https://nsearchives.nseindia.com/corporate/IDEAFORGE_23102026225255_IDF_SE_FINAL.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|15056216",
+   "date": "2026-10-23",
+   "company": "REC Limited",
+   "symbol": "RECLTD",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Intimation of incorporation of subsidiary companies.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_23102026220604_Signed_Incorporation__of_SPV_23102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|9138187",
+   "date": "2026-10-23",
+   "company": "DOMS Industries Limited",
+   "symbol": "DOMS",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition DOMS Industries Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
+   "link": "https://nsearchives.nseindia.com/corporate/RAHULBS35_23102026213722_IntimationForWOS.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|5025434",
+   "date": "2026-10-23",
+   "company": "Gufic Biosciences Limited",
+   "symbol": "GUFICBIO",
+   "family": "C",
+   "param": "C1",
+   "label": "Regulatory approval / successful inspection",
+   "clock": 3,
+   "text": "General Updates Gufic Biosciences Limited has informed the Exchange about Intimation regarding USFDA Pre-Approval Inspection at the Company s Manufacturing facility situated at Indore, Madhya Pradesh",
+   "link": "https://nsearchives.nseindia.com/corporate/GUFIC_23102026204725_finalintimationUSFDA.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|1374680",
+   "date": "2026-10-23",
+   "company": "Acme Solar Holdings Limited",
+   "symbol": "ACMESOLAR",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations Acme Solar Holdings Limited has informed the Exchange about an update on commissioning of Battery Energy Storage System (BESS) Project at Rajasthan",
+   "link": "https://nsearchives.nseindia.com/corporate/ACMECS_23102026203138_Intimation23102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|11822020",
+   "date": "2026-10-23",
+   "company": "OnEMI Technology Solutions Limited",
+   "symbol": "KISSHT",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Allotment of Securities OnEMI Technology Solutions Limited has informed the Exchange regarding allotment of 26493882 securities pursuant to Preferential Issue at its meeting held on October 23, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/ONEMI_23102026201246_Allotment_Preferential_Issue.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|4932605",
+   "date": "2026-10-23",
+   "company": "The Bombay Burmah Trading Corporation Limited",
+   "symbol": "BBTC",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "Disclosure under SEBI Takeover Regulations Nowrosjee Wadia and Sons Limited has Submitted to the Exchange a copy of Disclosure under Regulation 10 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+   "link": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23102026114203_disc10.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|11749921",
+   "date": "2026-10-23",
+   "company": "Power Grid Corporation of India Limited",
+   "symbol": "POWERGRID",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "General Updates Power Grid Corporation of India Limited has informed the Exchange about Commissioning of project namely Transmission Scheme for integration of Renewable Energy Zone (Phase-II) in Koppal-II (Phase-A & B) and Gadag-II (Phase- A) in Karnataka .",
+   "link": "https://nsearchives.nseindia.com/corporate/POWERGRID1_23102026170415_BSENSEReg30dt23102026_signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|12864351",
+   "date": "2026-10-23",
+   "company": "Godrej Consumer Products Limited",
+   "symbol": "GODREJCP",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations Godrej Consumer Products Limited has informed the Exchange about Commencement of commercial production/operations",
+   "link": "https://nsearchives.nseindia.com/corporate/GODREJCP_23102026165750_Disclosure_signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|2172605",
+   "date": "2026-10-23",
+   "company": "Davangere Sugar Company Limited",
+   "symbol": "DAVANGERE",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Updates Davangere Sugar Company Limited has informed the Exchange regarding Intimation of receipt of in-principle approval for issue of warrants on preferential basis ''.",
+   "link": "https://nsearchives.nseindia.com/corporate/DAVANGERESUGAR_23102026164444_Intimation_Approval_23_Oct_2026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|11623235",
+   "date": "2026-10-23",
+   "company": "Gland Pharma Limited",
+   "symbol": "GLAND",
+   "family": "C",
+   "param": "C1",
+   "label": "Regulatory approval / successful inspection",
+   "clock": 3,
+   "text": "General Updates Gland Pharma Limited has informed the Exchange about Conclusion of USFDA Unannounced Inspection at Company s Formulation Facility at Dundigal, Hyderabad",
+   "link": "https://nsearchives.nseindia.com/corporate/GLAND_23102026161753_USFDA_Dundigal_23102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|11594172",
+   "date": "2026-10-23",
+   "company": "Xtranet Technologies Limited",
+   "symbol": "XTRANET",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition Xtranet Technologies Limited has informed the Exchange about incorporation of a Wholly Owned Subsidiary company.",
+   "link": "https://nsearchives.nseindia.com/corporate/XTRANET_23102026161711_Intimation_WOS.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|16317342",
+   "date": "2026-10-23",
+   "company": "Quality Power Electrical Equipments Limited",
+   "symbol": "QPOWER",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "General Updates Quality Power Electrical Equipments Limited has informed the Exchange about Addendum report to the valuation report in respect of the preferential issue of Equity Shares for consideration other than cash.",
+   "link": "https://nsearchives.nseindia.com/corporate/QPOWER1234_23102026160939_IntimationReg30DisclosureAddendumValReportSign.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|8879099",
+   "date": "2026-10-23",
+   "company": "Vaswani Industries Limited",
+   "symbol": "VASWANI",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Allotment of Securities Vaswani Industries Limited has informed the Exchange regarding allotment of 1645000 securities pursuant to Preferential Issue at its meeting held on October 23, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/VASWANI_23102026135036_VIL_PFRE.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|480146",
+   "date": "2026-10-23",
+   "company": "Newgen Software Technologies Limited",
+   "symbol": "NEWGEN",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Amalgamation/Merger Newgen Software Technologies Limited has informed the Exchange about Approval of the Scheme of Arrangement for Amalgamation of Newgen Computers Technologies Limited ( Transferor Company ) with and into Newgen Software Technologies Limited ( Transferee Company / the Company ) and their respective shareholders and creditors ( Scheme / Scheme of Arrangement )",
+   "link": "https://nsearchives.nseindia.com/corporate/NEWGEN2_23102026134931_FinancialResult_23102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|7982694",
+   "date": "2026-10-23",
+   "company": "GK Energy Limited",
+   "symbol": "GKENERGY",
+   "family": "B",
+   "param": "B4",
+   "label": "Government / PSU tender award",
+   "clock": 3,
+   "text": "Bagging/Receiving of orders/contracts GK Energy Limited has informed the exchange that the Company has received a letter of Award from Maharashtra State Electricity Distribution Company Limited for 14,000 Off-Grid Solar Photovoltaic Water Pumping Systems (SPWPS) pumps under Magel Tyala Saur Krushi Pump Yojana. The total value of order is Rs. 330.29 Crores (inclusive of GST).",
+   "link": "https://nsearchives.nseindia.com/corporate/GKENERGY_23102026125147_Intimation_sd.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|13375818",
+   "date": "2026-10-23",
+   "company": "Medicamen Biotech Limited",
+   "symbol": "MEDICAMEQ",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Updates Medicamen Biotech Limited has informed the Exchange regarding 'Outcome of the Meeting of Preferential Issue Committee of the Board of Directors of Medicamen Biotech Limited ( the Company ) in accordance with Regulation 30 of the Securities & Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015.'.",
+   "link": "https://nsearchives.nseindia.com/corporate/MEDICAMEQ_23102026120617_Allotment_Outcome.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|526152",
+   "date": "2026-10-23",
+   "company": "Steel Strips Wheels Limited",
+   "symbol": "SSWL",
+   "family": "A",
+   "param": "A1",
+   "label": "Board-approved capex / capacity expansion",
+   "clock": 1,
+   "text": "Outcome of Board Meeting Steel Strips Wheels Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026 and Interim Dividend, Change in SMP & new Manufacturing facility set up",
+   "link": "https://nsearchives.nseindia.com/corporate/SSWL_23102026115430_Outcome30092026Signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|7544420",
+   "date": "2026-10-23",
+   "company": "Cipla Limited",
+   "symbol": "CIPLA",
+   "family": "C",
+   "param": "C1",
+   "label": "Regulatory approval / successful inspection",
+   "clock": 3,
+   "text": "General Updates Cipla Limited has informed the Exchange about USFDA inspection at InvaGen manufacturing facility in Hauppauge, Long Island, New York, USA.",
+   "link": "https://nsearchives.nseindia.com/corporate/CIPLA_23102026090259_SE_USFDA_Inspection_Hauppage_20261023_F.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-23|10397581",
+   "date": "2026-10-23",
+   "company": "Jyoti Structures Limited",
+   "symbol": "JYOTISTRUC",
+   "family": "B",
+   "param": "B4",
+   "label": "Government / PSU tender award",
+   "clock": 3,
+   "text": "Bagging/Receiving of orders/contracts Jyoti Structures Limited has informed the Exchange about that the Company has received a Letter of Award from Gujarat Energy Transmission Corporation Limited",
+   "link": "https://nsearchives.nseindia.com/corporate/JYOTISTRUC_23102026085820_Intimation.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|947230",
+   "date": "2026-10-22",
+   "company": "Pitti Engineering Limited",
+   "symbol": "PITTIENG",
+   "family": "A",
+   "param": "A1",
+   "label": "Board-approved capex / capacity expansion",
+   "clock": 1,
+   "text": "General Updates Pitti Engineering Limited has informed the Exchange about approval of Capex and capacity expansion",
+   "link": "https://nsearchives.nseindia.com/corporate/PITTIENG_22102026190741_CAPEX.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|12844243",
+   "date": "2026-10-22",
+   "company": "Ugro Capital Limited",
+   "symbol": "UGROCAP",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Amalgamation/Merger Order of final hearing date schedule for 20th November 2026, under the scheme of amalgamation.",
+   "link": "https://nsearchives.nseindia.com/corporate/UGROCAP_22102026172445_UGRONCLTOrder.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|5466095",
+   "date": "2026-10-22",
+   "company": "Zaggle Prepaid Ocean Services Limited",
+   "symbol": "ZAGGLE",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Zaggle Prepaid Ocean Services Limited has informed the Exchange regarding Incorporation of a wholly owned subsidiary",
+   "link": "https://nsearchives.nseindia.com/corporate/ZAGGLE_22102026152407_Intimation-_Incorporation.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|5797568",
+   "date": "2026-10-22",
+   "company": "Juniper Green Energy Limited",
+   "symbol": "JNPR",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations Juniper Green Energy Limited has informed the Exchange about commissioning of additional Wind Capacity",
+   "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_22102026115131_2026_10_22_JGEL_Reg_30_Stellar_Commissioning.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|11067105",
+   "date": "2026-10-22",
+   "company": "Rane Holdings Limited",
+   "symbol": "RANEHOLDIN",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition The Finance Committee of the Board of Directors of the Company at their meeting held today, have, inter alia, approved further investment of equity in the joint venture M/s. ZF LIFETEC Rane Automotive India Private Limited. The meeting concluded at 11:15 AM",
+   "link": "https://nsearchives.nseindia.com/corporate/RANEHOLDIN_22102026114254_RHL_ZLRAI_Investment_Oct2026_SD.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|4967866",
+   "date": "2026-10-22",
+   "company": "The Bombay Burmah Trading Corporation Limited",
+   "symbol": "BBTC",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "Disclosure under SEBI Takeover Regulations Nowrosjee Wadia and Sons Limited has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in regulation 10 of SEBI (SAST) Regulations, 2011.",
+   "link": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22102026112143_Disc10.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-22|10667287",
+   "date": "2026-10-22",
+   "company": "Power Finance Corporation Limited",
+   "symbol": "PFC",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Incorporation of wholly owned Subsidiary of PFC Consulting Limited (a wholly owned subsidiary of Power Finance Corporation Limited)- NORTHERN REGION POWER TRANSMISSION LIMITED",
+   "link": "https://nsearchives.nseindia.com/corporate/PFC2023_22102026111403_Intimation22102026Signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|12909760",
+   "date": "2026-10-21",
+   "company": "Juniper Green Energy Limited",
+   "symbol": "JNPR",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries",
+   "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_21102026215104_2026_10_21_JGEL_Reg_30_Incorporation_Cosmic_15_and_Kite_15.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|11161836",
+   "date": "2026-10-21",
+   "company": "Pearl Global Industries Limited",
+   "symbol": "PGIL",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Pearl Global Industries Limited has informed the Exchange about Exchange about Incorporation of Subsidiary in Vietnam.",
+   "link": "https://nsearchives.nseindia.com/corporate/PGIL_21102026175036_Disclosure.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|2064489",
+   "date": "2026-10-21",
+   "company": "Kiri Industries Limited",
+   "symbol": "KIRIINDUS",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Updates Kiri Industries Limited has informed the Exchange regarding 'Intimation of detailed Object of the issue of 60,82,600 convertible warrants on Preferential basis pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
+   "link": "https://nsearchives.nseindia.com/corporate/KIRIINDUS_21102026163502_Object_related_Announcement_21102026_S.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|3384468",
+   "date": "2026-10-21",
+   "company": "Grasim Industries Limited",
+   "symbol": "GRASIM",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations Commencement of commercial production of EPICHLOROHYDRIN Plant at Vilayat, Gujarat",
+   "link": "https://nsearchives.nseindia.com/corporate/GRASIM_21102026145138_SEIntimationCommencement.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|2660570",
+   "date": "2026-10-21",
+   "company": "Kiri Industries Limited",
+   "symbol": "KIRIINDUS",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Updates Kiri Industries Limited has informed the Exchange regarding 'Incorporation of a Wholly Owned Subsidiary Company in Chile'.",
+   "link": "https://nsearchives.nseindia.com/corporate/KIRIINDUS_21102026144711_Intimation_Chile_WOS_Incorporation_S.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-21|16105289",
+   "date": "2026-10-21",
+   "company": "Zydus Lifesciences Limited",
+   "symbol": "ZYDUSLIFE",
+   "family": "C",
+   "param": "C1",
+   "label": "Regulatory approval / successful inspection",
+   "clock": 3,
+   "text": "Press Release Zydus Lifesciences Limited has informed the Exchange regarding a press release dated October 21, 2026, titled \"Zydus receives USFDA approval for Estradiol and Levonorgestrel Transdermal System, eligible for 180-day CGT exclusivity\".",
+   "link": "https://nsearchives.nseindia.com/corporate/Cadilahc_21102026110803_PressRelease21102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-20|12909760",
+   "date": "2026-10-20",
+   "company": "Juniper Green Energy Limited",
+   "symbol": "JNPR",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition Juniper Green Energy Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiaries",
+   "link": "https://nsearchives.nseindia.com/corporate/JGEL2025_20102026232418_2026_10_20_JGEL_Reg_30_Incorporation.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-20|2153861",
+   "date": "2026-10-20",
+   "company": "Dr. Agarwal's Health Care Limited",
+   "symbol": "AGARWALEYE",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Outcome of Board Meeting Material Update on the Scheme of Amalgamation between Dr. Agarwal's Eye Hospital Limited and Dr. Agarwal's Health Care Limited and their respective shareholders and creditors",
+   "link": "https://nsearchives.nseindia.com/corporate/DRAGARWALS_20102026184801_AHCL_Board_Outcome_20102026_sd.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-20|8294741",
+   "date": "2026-10-20",
+   "company": "Venus Pipes & Tubes Limited",
+   "symbol": "VENUSPIPES",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations Venus Pipes & Tubes Limited has informed the Exchange about Commencement of commercial production/operations",
+   "link": "https://nsearchives.nseindia.com/corporate/VENUSPIPES_20102026135954_Intimation_of_CCP_20102026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-20|10022335",
+   "date": "2026-10-20",
+   "company": "GRP Limited",
+   "symbol": "GRPLTD",
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Commencement of commercial production/operations GRP Limited has informed the Exchange about Commencement of commercial production/operations",
+   "link": "https://nsearchives.nseindia.com/corporate/GRPLTD_20102026115825_Stock_Exchange_Intimation_Commencment_of_Solar_Pwer.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-20|11414186",
+   "date": "2026-10-20",
+   "company": "OnEMI Technology Solutions Limited",
+   "symbol": "KISSHT",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "General Updates Receipt of In-Principle Approvals for the proposed preferential issue on a private placementbasis.",
+   "link": "https://nsearchives.nseindia.com/corporate/ONEMI_20102026001449_Intimation_for_reciept_of_In_Principle_Approval.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|12426262",
+   "date": "2026-10-19",
+   "company": "Cemindia Projects Limited",
+   "symbol": "CEMPRO",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Allotment of Securities Cemindia Projects Limited has informed the Exchange regarding allotment of 12635379 securities pursuant to Qualified Institution Placement at its meeting held on October 19, 2026",
+   "link": "https://nsearchives.nseindia.com/corporate/ITD_19102026235546_Stock_exchange.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|11388408",
+   "date": "2026-10-19",
+   "company": "REC Limited",
+   "symbol": "RECLTD",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Scheme of Arrangement Intimation of receipt of NOC from NSE and BSE in relation to proposed scheme of merger of REC Limited with and into Power Finance Corporation Limited.",
+   "link": "https://nsearchives.nseindia.com/corporate/RECLTD_19102026232553_Signed_Intimation_OL_191026.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|11502952",
+   "date": "2026-10-19",
+   "company": "Gabriel India Limited",
+   "symbol": "GABRIEL",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "General Updates Announcement Under Regulation 30 (LODR) - Update On Joint Venture Agreement With Faurecia Automotive Seating India Private Limited",
+   "link": "https://nsearchives.nseindia.com/corporate/GABRIEL_19102026193810_SEIntimation_signed.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|4631352",
+   "date": "2026-10-19",
+   "company": "DCM Shriram Fine Chemicals Limited",
+   "symbol": "DSFCL",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "Disclosure under SEBI Takeover Regulations Alok Bansidhar Shriram has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in regulation 10 of SEBI (SAST) Regulations, 2011.",
+   "link": "https://nsearchives.nseindia.com/corporate/team_bbodade_19102026191318_DSFCL.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|957056",
+   "date": "2026-10-19",
+   "company": "Kaya Limited",
+   "symbol": "KAYA",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "General Updates Kaya Limited has informed the Exchange about receipt of In-Principle approval from NSE & BSE for issue of equity shares on preferential basis to non promoter",
+   "link": "https://nsearchives.nseindia.com/corporate/KAYA_19102026191403_IP_approval_intimation.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|7104263",
+   "date": "2026-10-19",
+   "company": "Advit Jewels Limited",
+   "symbol": "RAMBHAJO",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "Disclosure under SEBI Takeover Regulations Abhishek Gilara has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in regulation 10 of SEBI (SAST) Regulations, 2011.",
+   "link": "https://nsearchives.nseindia.com/corporate/team_bbodade_19102026190802_RAMBHAJO.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|9460513",
+   "date": "2026-10-19",
+   "company": "Diamond Power Infrastructure Limited",
+   "symbol": "DIACABS",
+   "family": "F",
+   "param": "F1",
+   "label": "Senior appointment",
+   "clock": 1,
+   "text": "Outcome of Board Meeting Appointment of Chief Financial Officer key managerial personnel of the Company",
+   "link": "https://nsearchives.nseindia.com/corporate/DIACABS_19102026185040_Outcome_of_BM.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|997567",
+   "date": "2026-10-19",
+   "company": "PI Industries Limited",
+   "symbol": "PIIND",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Acquisition PI Industries Limited has informed the Exchange about Update on Incorporation of a Wholly Owned Subsidiary of the Company namely PI Foundation under section 8 of the Companies Act, 2013.",
+   "link": "https://nsearchives.nseindia.com/corporate/PIIND_19102026184713_PI_Foundation-_Reg_30_disclosure_October_19_2026_sd.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|2600236",
+   "date": "2026-10-19",
+   "company": "Mangal Credit and Fincorp Limited",
+   "symbol": "MANCREDIT",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "Allotment of Securities Allotment of 2500000 Convertible Equity Warrants pursuant to Preferential Issue.",
+   "link": "https://nsearchives.nseindia.com/corporate/MCFL_19102026175117_Outcome.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|5001176",
+   "date": "2026-10-19",
+   "company": "Emkay Global Financial Services Limited",
+   "symbol": "EMKAY",
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "General Updates Emkay Global Financial Services Limited has informed the Exchange about Intimation of Receipt of Listing Approval from BSE Limited for 1,00,000 Equity Shares of Rs. 10 Each, allotted pursuant to Conversion of Equivalent Warrants Issued on a Preferential Basis.",
+   "link": "https://nsearchives.nseindia.com/corporate/jpshah_19102026155125_EGFSLListingApproval29072026_Only_BSE_Approval.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE announcement|2026-10-19|7244694",
+   "date": "2026-10-19",
+   "company": "EPL Limited",
+   "symbol": "EPL",
+   "family": "G",
+   "param": "G1",
+   "label": "New subsidiary / JV / acquisition",
+   "clock": 1,
+   "text": "Scheme of Arrangement EPL Limited has informed the Exchange about Receipt of Observation Letters from BSE and NSE in relation to Scheme of Amalgamation of Indovida India Private Limited with the Company and their respective shareholders",
+   "link": "https://nsearchives.nseindia.com/corporate/Sonia_Gupte_19102026151455_SEIntimationNoObjectionLetterSd.pdf",
+   "source": "NSE announcement",
+   "sweep": 1,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Tikona Communication Limited",
+   "symbol": "TIKONA",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Samhi Hotels Limited",
+   "symbol": "SAMHI",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Gland Pharma Limited",
+   "symbol": "GLAND",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Airo Lam limited",
+   "symbol": "AIROLAM",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Aurum PropTech Limited",
+   "symbol": "AURUM",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Aarey Drugs & Pharmaceuticals Limited",
+   "symbol": "AAREYDRUGS",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Damodar Industries Limited",
+   "symbol": "DAMODARIND",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Advit Jewels Limited",
+   "symbol": "RAMBHAJO",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Shadowfax Technologies Limited",
+   "symbol": "SHADOWFAX",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "M TEK COPPER LIMITED",
+   "symbol": "MCL",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Paisalo Digital Limited",
+   "symbol": "PAISALO",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "GSPL Transmission Limited",
+   "symbol": "GSPLTRANS",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Asian Hotels (West) Limited",
+   "symbol": "AHLWEST",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Manika Plastech Limited",
+   "symbol": "MANIKA",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "UMIYA BUILDCON LIMITED",
+   "symbol": "UMIYA-MRO",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Innova Captab Limited",
+   "symbol": "INNOVACAP",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Nandani Creation Limited",
+   "symbol": "JAIPURKURT",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Honasa Consumer Limited",
+   "symbol": "HONASA",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Kabra Extrusion Technik Limited",
+   "symbol": "KABRAEXTRU",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Sical Logistics Limited",
+   "symbol": "SICALLOG",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Patel Integrated Logistics Limited",
+   "symbol": "PATINTLOG",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Dhampur Bio Organics Limited",
+   "symbol": "DBOL",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Priti International Limited",
+   "symbol": "PRITI",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Rajputana Stainless Limited",
+   "symbol": "RSL",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Kirloskar Electric Company Limited",
+   "symbol": "KECL",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "NSE SAST Reg 29|2026-10-25|13421084",
+   "date": "2026-10-25",
+   "company": "Sudarshan Colorants India Limited",
+   "symbol": "SUDARCOLOR",
+   "family": "D",
+   "param": "D4",
+   "label": "Substantial acquisition / institutional entry",
+   "clock": 2,
+   "text": "NSE SAST Reg 29:",
+   "link": "https://www.nseindia.com/companies-listing/corporate-filings-insider-trading",
+   "source": "NSE SAST Reg 29",
+   "sweep": 7,
+   "grade": "A",
+   "in_universe": true
+  },
+  {
+   "item_id": "Google News India|2026-10-25|4416421",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "A",
+   "param": "A1",
+   "label": "Board-approved capex / capacity expansion",
+   "clock": 1,
+   "text": "HPCL Oct 2026 slides: capacity expansion plans amid H1 FY27 loss - Investing.com India",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSVBaZTBTaHpxUUtoWFUzR2ktQl9vVXk3ellqZ3ViaTdONm1wRUdvRXpUTnVPR2NRMzJpVVktQnpkeVFGNjFadGwyTWZqWjZOdm5lVHFLczUwQ3JrZUpCQ3g3VGFuOU1hWGp2a1luem1YT1NiVHh2NGx4VkhtNzY4N29vUncyLWJDQVJRa2xEa1MzLVZ6NEtLZWtfOXdRWGFYSl9JazdBa19mR3JvU3F0RU95a2tUZDBreHhTTFVXNGsxQQ?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|8309179",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "B",
+   "param": "B1",
+   "label": "Order book update",
+   "clock": 3,
+   "text": "Rs 50,000 Crore Global Order Book: This Multibagger Bags Rs 5,500 Crore US Pipeline Order Linked to AI Data Centre Expansion - Dalal Street Investment Journal",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSks1UGFIb1k0a2hKZHM1Z203ZEZ2WEltMkJaQnVTMDhwTzE5a1ZhUE5MS3pmbzNJNnNYUkpLMXp3YXBRaU9fb1V1QnB6WEU4VXptVEtsODBTcWR2OU9vY3piNFBPU3JOMlRzOFhSSFdXdElQSUxvdkpjSjFOaHUycGZGaktOVUJsS09mX1RKd0dwZHRtWElfdW9sSGZiQ05nTEV1TjVmdTFOaW50TEFtR01GMjNESDdIbXl2aGt3YVg5Y3JHaHhnVlU3SzVyNmNiRFJicVlmQl9LUkFHcEJycFlkMFBXQTQ4eFloVEJneF9JWDB2V2FkX3Zhc0UxUHM?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|1968406",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "C",
+   "param": "C1",
+   "label": "Regulatory approval / successful inspection",
+   "clock": 3,
+   "text": "Lord\u2019s Mark Industries Becomes Asia\u2019s First with multiple US FDA Registration for 200+Products;Exports Begin in December - Livemint",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNM011c25nNnJqa282aFA1QWlxRDRhWlNRdnQ4dER4QXd0OFZIR0dfbVc3VjMyYVNCR1ZhZ2R3c09ZN2tLSU91aDFnTzg0MnBVUjZtRTFZZTY0WGtTbER6dlJHLXZWU0RjRVpNa3ZSQzlZLUxBZjBYOUstZWFRcUZkUlMzMUVSVDg5Wjd3VElSNHNCa3cxa1NlbXgyOFZ1cW1NR05aNjdrTVRub2UwZnRzYnpYemlmdVNrbV9hQ001cVlRNTFBWHFEb2JYdl9sb0Y4Q2hvaXE2d2pwVE1KYXBGZThENTFQSkJ6VXAxbUxXX3JDZEswZm9XeWVwbw?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|12319406",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "A",
+   "param": "A5",
+   "label": "Commissioning / commencement of commercial production",
+   "clock": 3,
+   "text": "Supreme Court Dismisses Appeal Challenging Power Tariff Concessions for Industrial Units. The appellant failed to demonstrate commencement of commercial production within the stipulated period to qualify for concessional tariff rates under the Kerala Gove - Lawtext",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ERTBoVmd2eUQyWnY5UUZaOFljTTBNUnVIZmllMkY4SEpWWV9uOUY5cVJuSk1zRVRCZnhVMzdKUy1UWXBzNnhqUVZlUzFRTEZ3TENPeA?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|12347474",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "D",
+   "param": "D3",
+   "label": "Preferential allotment / QIP to a named investor",
+   "clock": 2,
+   "text": "SBI Mutual Fund stake in ASM Technologies rises to 5.25% via preferential allotment - scanx.trade",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDNDQzBrQS04R2RHOXFlbjM0N2NleGFaWnpHYnUwSXMwemRuRmI3RkF1ak1XSXpjb2Z2V2tRY0IwNjVyMlJtSDE2Ykw1ZmlSNWxMbDZCdDFESjV1UHNzTjVFYmdGNXktZjAyeEdlc1ZPSHpuM3piQ0VXM2dHaFUxOEozTzRpd1lsazJQRE5GSW44bGpBNjRjUnJKLWFXSlhxel9IRjhuQzVHV2U1SldweFpBT1R3b1VVTHNTdDFMeFp4WGVG?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|8302879",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "H",
+   "param": "H1",
+   "label": "Import substitution / duty action",
+   "clock": 2,
+   "text": "China faces fresh Indian duties on titanium dioxide imports: Anti-dumping levy of $460-$681 per tonne reim - The Economic Times",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQT203UFN6TkZxTDlxb3dDUWVwbEw5ZUZNTFhaVUlQMUdGMlhwVkkzYzNlUzA4Zm9LaHd6cHY4ck5hdnlud0tOYTJRNW1kc3ZqOF9ENTc0N1l1aTJPNl82NWllazR3N1RKOXpLcURSOXc3VmpiRk4tVnVNQkJ6aWgtZG1sU0hYeUQ4QTJnS1pwczYzMktaWXoxaXFDcWNtUDNlcDBwVGZWblgtdU5jdmlad3k0MFROUnNfeVhKck1iN0NGWWVhbGdfbnNNLVVzYVZXNmVsenFDWXMxM2Nhc2U0SWd5QWdsVU80SkpSWWs1UG8zb0RsdFJOSG45bm0yM3k2THJjRXg4aXhBRldPLXRnZXZ6Vl84elA3NGFTc0pCcFQtTmROS0VOWWtEZF95eWxk0gG2AkFVX3lxTE1EUGFZUGJEY1k4QVZhQXRFakZuWFlVNXpqS29YZDNtNjk3R25WSFhKbWpFQ2UtSDNuR09WMWZyb0ZjTy1FM3JBUWdiTDMtbTktTFpXRE5DdHpRVGRoVXBzQWhHVnltTmlYRVdqRnRrMGE0N2xoVkRtRzlpUk00V0s5UW1lU3VhNHRSSmlMaWUyeFYyVkV0RGJhOU9hUUF2cEdwTzFUNXJlUUJGMFVSb2tfV0VjT2ZFZjN6a0RyMXhfX1ROeE92elFPTVlWLXFxNmwzamRsUzJjSjdSdGlGdlVPc05DNUNXUWFaVUZ3dnJCendCcTF6Nkg5eGZvT3ZVd2FYYTRDdHlzSmVBSGxIQUVfQ3hEMHZodWc4NVlDdzBVVHBIUDBER24zT2R0M0kxa1B6SHFGbGc?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
+  },
+  {
+   "item_id": "Google News India|2026-10-25|14078289",
+   "date": "2026-10-25",
+   "company": null,
+   "symbol": null,
+   "family": "B",
+   "param": "B4",
+   "label": "Government / PSU tender award",
+   "clock": 3,
+   "text": "Essar Ports Secures LOA for Tuna Tekra Multipurpose Cargo Terminal at Kandla - Essar - Essar",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTUYtN3Yzd0NoR0c3UUt5NDhXWWdYSjJiX1RHd3dQSEhOb2J4Y2pWdW9hcENWbFlkQkhVZE1ISi16a2NEcVhxYTRZLUU1WGFTZHAyMmRzZVhsbkZYb3JsdWZUSENOVng4c2FoMmg5ZGRieTJ4dHozVzRXTnhISWpQYnhOZlpyMW5tdENrdUg2aGhDRkZhV1pkZ1o1SjFtMFVYRGptbTBKWGdFRjdhOFE?oc=5",
+   "source": "Google News India",
+   "sweep": 9,
+   "grade": "C",
+   "in_universe": false
   }
  ],
  "errors": [
@@ -29561,7 +31097,7 @@
    "detail": "codetabs HTTP 522"
   },
   {
-   "where": "https://www.nseindia.com/api/historical/bulk-deals?from=11-10-2026&to=18-10-2026",
+   "where": "https://www.nseindia.com/api/historical/bulk-deals?from=18-10-2026&to=25-10-2026",
    "detail": "bad json: JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 13 (char 14)')"
   }
  ]
